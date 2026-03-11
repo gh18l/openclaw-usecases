@@ -1,0 +1,2522 @@
+[
+  {
+    "id": "https---github-com-0xtresser-web-skills-protocol",
+    "title": "0xtresser/Web-Skills-Protocol",
+    "description": "The Web Skills Protocol (WSP) is an open standard for websites to publish agent skill files that teach AI agents how to interact with the site — its APIs, workflows, and capabilities — instead of scraping HTML and guessing. ⭐ 28",
+    "url": "https://github.com/0xtresser/Web-Skills-Protocol",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-moltiverse-comments-1rbqq6u-11-hacks-that-will-make-you",
+    "title": "11 hacks that will make your OpenClaw go from useless to AGI",
+    "description": "You're probably using your OpenClaw like it's a glorified ChatGPT. This is a MASSIVE mistake. You're only getting 1% of the value of OpenClaw by doing this. Here's 11 things you can do to get the most out of OpenClaw: (by the way, sending this article to your OpenClaw is a massive hack) 1. Use Op",
+    "url": "https://www.reddit.com/r/moltiverse/comments/1rbqq6u/11_hacks_that_will_make_your_openclaw_go_from/",
+    "source": "reddit/moltiverse",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 98
+  },
+  {
+    "id": "https---www-reddit-com-r-openclawusecases-comments-1rbmrup-11-openclaw-hacks-tha",
+    "title": "11 OpenClaw Hacks That Completely Changed How I Use My Agent (Going from 1% to 100% of its value)",
+    "description": "Most people are using OpenClaw like a fancy ChatGPT wrapper. That's only tapping into 1% of its actual power. Here are 11 hacks — remixed from a viral thread by u/AlexFinn — that I've personally tested and want to share with this community. \\--- \\*\\*1. Use Opus for the brain, specialized model",
+    "url": "https://www.reddit.com/r/OpenClawUseCases/comments/1rbmrup/11_openclaw_hacks_that_completely_changed_how_i/",
+    "source": "reddit/OpenClawUseCases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 115
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1rjwqq7-2x-3090s-rcp-vs-local-",
+    "title": "2x 3090s - RCP vs Local?",
+    "description": "I have an Alienware Aurora R13 Desktop with 64gb RAM and a 3090 in it which has been great for small-model inference, and I'd always assumed I was maxed out at 24 GB VRAM for local models.   I also have a 3090 in a water-cooled Aorous RTX 3090 \"gaming box\" that speaks Thunderbolt 3 and works nicely",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjwqq7/2x_3090s_rcp_vs_local/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 3
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rovlhj-3-weeks-with-openclaw-on-a-8-",
+    "title": "3 weeks with Openclaw on a 8 year old Raspberry Pi ($0 spent till now).",
+    "description": "I was able to setup my openclaw(securely) on an old raspberry pi(model 4 with 8 gigs of ram), runs 24x7. Where I am after 3 weeks: - Setup all the basic skills which I needed for my openclaw (especially  clawhub, notion, gog, whisper locally and nano banana, and it was a real pain to do so on a ra",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rovlhj/3_weeks_with_openclaw_on_a_8_year_old_raspberry/",
+    "source": "reddit/openclaw",
+    "category": "Smart Home & IoT",
+    "date_added": "2026-03-11",
+    "score": 153
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1raq9qy-50-openclaw-alternatives-for",
+    "title": "50+ Openclaw Alternatives for Business",
+    "description": "With OpenClaw blowing up lately, i found ai products that do similar stuff for business. some are easier to set up, others are more secure, and many are better for specific use cases. Here's what I found: # 🦞 OpenClaw Variations and Forks Lightweight and secure spins on OpenClaw built by the commu",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1raq9qy/50_openclaw_alternatives_for_business/",
+    "source": "reddit/AI_Agents",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 201
+  },
+  {
+    "id": "https---www-reddit-com-r-openclawsetup-comments-1ra3oob-7-things-i-wish-i-knew-b",
+    "title": "7 things I wish I knew before using OpenClaw (saved me weeks of frustration)",
+    "description": "1. Don't run everything through your best mode This is the single biggest mistake. Heartbeats, cron checks, and routine tasks don't need Opus or Sonnet. Set up a tiered model config. Use a cheap model (Haiku, Gemini Flash, or even a local model via Ollama) as your primary for general tasks, and kee",
+    "url": "https://www.reddit.com/r/openclawsetup/comments/1ra3oob/7_things_i_wish_i_knew_before_using_openclaw/",
+    "source": "reddit/openclawsetup",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 109
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1r7fmj5-build-advice-expanding-my-l",
+    "title": "[Build Advice] - Expanding my Local AI Node: $1,500 budget to add to an existing X299 / 6900 XT build for Autonomous Agents. Looking for feedback",
+    "description": "I am expanding and building a high-performance local AI node to move away from cloud-dependent models (Claude/Gemini) and host a private, autonomous workstation. The system is designed to handle three high-utility use cases simultaneously to start and will probably grow from here: 24/7 security even",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r7fmj5/build_advice_expanding_my_local_ai_node_1500/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Finance & Trading",
+    "date_added": "2026-03-11",
+    "score": 6
+  },
+  {
+    "id": "https---www-reddit-com-r-legaladvice-comments-6dh9vh-super-awesome-update-sat-do",
+    "title": "[Super Awesome Update] Sat down on my friend's MacBook and broke it, offered to pay her the money for it but now she wants more because \"she was upgrading anyway\" so it's this or she will sue me in small claims court.",
+    "description": "I never thought this would turn out the way it did and I really felt like I learned so much stuff in the process thanks to all of you. [Here](https://www.reddit.com/r/legaladvice/comments/641joo/sat_down_on_my_friends_macbook_and_broke_it/) is my previous question.  I went through every single comm",
+    "url": "https://www.reddit.com/r/legaladvice/comments/6dh9vh/super_awesome_update_sat_down_on_my_friends/",
+    "source": "reddit/legaladvice",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 60645
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1qxrogr-a-topdownloaded-openclaw-sk",
+    "title": "A top-downloaded OpenClaw skill is actually a staged malware delivery chain",
+    "description": "Here we go! As expected by most of us here.   Jason Meller from 1password **argues that OpenClaw’s agent “skills” ecosystem has already become a real malware attack surface.** Skills in OpenClaw are typically markdown files that include setup instructions, commands, and bundled scripts. Because user",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qxrogr/a_topdownloaded_openclaw_skill_is_actually_a/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 241
+  },
+  {
+    "id": "https---github-com-aalhajrabih2-openclaw-usecases-arabic",
+    "title": "aalhajrabih2/openclaw-usecases-arabic",
+    "description": "OpenClaw use cases translated to Arabic with minimalist design ⭐ 0",
+    "url": "https://github.com/aalhajrabih2/openclaw-usecases-arabic",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1quz5ja-agentic-coding-vibe-coding-h",
+    "title": "Agentic coding &gt;&gt; Vibe coding. Here's proof",
+    "description": "Still kind of in shock, but I need to document this while it's fresh. **The numbers:** * Launch: 2 days ago * Current MRR: $250 * Paying customers: 10 * Refunds: 3 (reached out to learn what went wrong) * Previous revenue from 3 apps built in 2025: $0 **The backstory:** Last year I built 3 diffe",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1quz5ja/agentic_coding_vibe_coding_heres_proof/",
+    "source": "reddit/AI_Agents",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 60
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1r80n04-agentnet-ircstyle-relay-for",
+    "title": "AgentNet: IRC-style relay for decentralized AI agents",
+    "description": "I’ve been experimenting with multi-agent systems, and one thing that kept bothering me is that most frameworks assume all agents run in the same process or environment. I wanted something more decentralized — agents on different machines, owned by different people, communicating through a shared re",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r80n04/agentnet_ircstyle_relay_for_decentralized_ai/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 4
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rmzauh-ai-agent-sandbox-",
+    "title": "AI agent sandbox.",
+    "description": "I am working a lot with openclaw. when i see how much system access it end up getting I came up with the idea of building local runtime system that control OS level permissions, sandboxing, and scoped permissions something like a firewall and sandbox for AI agents. genuinely asking should i work o",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rmzauh/ai_agent_sandbox/",
+    "source": "reddit/AI_Agents",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 7
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r0q4qf-ai-agents-need-better-memory",
+    "title": "AI agents need better memory systems, not just bigger context windows",
+    "description": "been thinking about the openclaw hype and why ai agents still feel limited even with tools like that.    \\*\\*the context window trap:\\*\\*    everyone's excited about 200k, 1m, 10m token context windows. and yeah, that's impressive. but it's not the same as memory. openclaw's approach (and most a",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r0q4qf/ai_agents_need_better_memory_systems_not_just/",
+    "source": "reddit/AI_Agents",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 77
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rc6hgc-ai-fomo-was-killing-my-produc",
+    "title": "AI FOMO was killing my productivity. Here's what finally snapped me out of it.",
+    "description": "I'm a software engineer at a big tech company in the Bay Area, and I need to be honest about something: AI has been making me miserable.  Not because of the technology itself — I love it. But because every single day there's a new model, a new tool, a new story about someone building something incr",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rc6hgc/ai_fomo_was_killing_my_productivity_heres_what/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 141
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-earn",
+    "title": "AI-Powered Earnings Tracker",
+    "description": "Following earnings season across dozens of tech companies means checking multiple sources and remembering report dates. You want to stay on top of AI/tech earnings without manually tracking every company.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/earnings-tracker.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-aipmandy-awesome-openclaw-use-cases-cn",
+    "title": "AIPMAndy/awesome-openclaw-use-cases-cn",
+    "description": "Chinese OpenClaw use cases: real-world workflows, prompts, configs, automation examples, and a structured Markdown + JSON dataset. ⭐ 2",
+    "url": "https://github.com/AIPMAndy/awesome-openclaw-use-cases-cn",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-alexanys-awesome-openclaw-usecases-zh",
+    "title": "AlexAnys/awesome-openclaw-usecases-zh",
+    "description": "🇨🇳 OpenClaw（个人智能体）中文最佳用例大全 | 40 个真实场景（国内特色 + 海外的国内生态适配）：自动化办公、内容创作、服务器运维、个人助理、知识管理 | 新手友好 | Chinese guide for OpenClaw AI agent use cases ⭐ 1710",
+    "url": "https://github.com/AlexAnys/awesome-openclaw-usecases-zh",
+    "source": "github-search",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1qvtegv-am-i-doing-something-wrong-o",
+    "title": "Am I doing something wrong or is openclaw incredibly overblown? It simply is not stable enough to do all the tasks I see people bragging about on X…",
+    "description": "First of all, I think open claw is an awesome coding companion. If I’m coding something, I get an access to the git repo, it creates merge requests, we figure out issues together.  What it is not good at is doing repetitive tasks with any degree of consistency. It is not good at building things and",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1qvtegv/am_i_doing_something_wrong_or_is_openclaw/",
+    "source": "reddit/AI_Agents",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 13
+  },
+  {
+    "id": "https---github-com-ammohitchaprana-openclaw-applications-usecases",
+    "title": "ammohitchaprana/OpenClaw-Applications-Usecases",
+    "description": "A community collection of OpenClaw applications & use cases for making life easier. ⭐ 2",
+    "url": "https://github.com/ammohitchaprana/OpenClaw-Applications-Usecases",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-announcements-comments-mcisdf-an-update-on-the-recent-i",
+    "title": "An update on the recent issues surrounding a Reddit employee",
+    "description": "We would like to give you all an update on the recent issues that have transpired concerning a specific Reddit employee, as well as provide you with context into actions that we took to prevent doxxing and harassment. As of today, the employee in question is no longer employed by Reddit. We built a",
+    "url": "https://www.reddit.com/r/announcements/comments/mcisdf/an_update_on_the_recent_issues_surrounding_a/",
+    "source": "reddit/announcements",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 107360
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rcx7mg-any-good-reason-to-stay-with-",
+    "title": "Any good reason to stay with Openclaw?",
+    "description": "Hi, I'm currently trying many alternatives of Openclaw, and I'm really surprised by the quality of some alternatives, which are not so popular on X and Github stars.     I take two of them:  * Cowork-OS (MIT Licence) * Spacebot (ALv2 Future License, don't know what does it mean) At a first sight",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rcx7mg/any_good_reason_to_stay_with_openclaw/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 148
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1r5v1jb-anyone-actually-using-openc",
+    "title": "Anyone actually using Openclaw?",
+    "description": "I am highly suspicious that openclaw's virality is organic. I don't know of anyone (online or IRL) that is actually using it and I am deep in the AI ecosystem (both online and IRL). If this sort of thing is up anyone's alley, its the members of localllama - so are you using it?  With the announceme",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r5v1jb/anyone_actually_using_openclaw/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 812
+  },
+  {
+    "id": "https---www-reddit-com-r-claudeai-comments-1rob52f-anyone-feel-scared-",
+    "title": "anyone feel scared?",
+    "description": "tldr. shit my pants when realizing the world is moving so fast, spend many day and nights trying to catch up... still scared.    \\----------------- after I saw boris and peter early in the year, I began optimizing my personal workflow... built equivalent of oai's sympony, custom openclaw using cl",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1rob52f/anyone_feel_scared/",
+    "source": "reddit/ClaudeAI",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 571
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-meet",
+    "title": "Automated Meeting Notes & Action Items",
+    "description": "You just finished a 45-minute team call. Now you need to write up the summary, pull out action items, and distribute them to Jira, Linear, or Todoist — manually. By the time you're done, the next meeting is starting. What if your agent handled all of that the moment the transcript lands?",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/meeting-notes-action-items.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-auto",
+    "title": "Autonomous Project Management with Subagents",
+    "description": "Managing complex projects with multiple parallel workstreams is exhausting. You end up context-switching constantly, tracking status across tools, and manually coordinating handoffs.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-project-management.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-bcharleson-openshart",
+    "title": "bcharleson/openshart",
+    "description": "OpenShart — encrypted AI agent memory with OpenClaw plugin support for secure memory_search/get/store/forget workflows. ⭐ 16",
+    "url": "https://github.com/bcharleson/openshart",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1roo03h-best-models-for-128gb-vram-",
+    "title": "Best Models for 128gb VRAM: March 2026?",
+    "description": "As the title suggests, what do you think is the best model for 128gb of vram? My use case is agentic coding via cline cli, n8n, summarizing technical documents, and occasional chat via openweb ui. No openclaw. For coding, I need it to be good at C++ and Fortran as I do computational physics. I am",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1roo03h/best_models_for_128gb_vram_march_2026/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 27
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r2u356-best-openclaw-skills-you-sho",
+    "title": "Best Openclaw Skills You Should Install (From ClawHub's 500+ Skills)",
+    "description": "Been using openclaw for a while now and the skill ecosystem is wild. theres like 500+ skills on clawhub. figured id share the ones that actually get used daily. **GitHub**     clawdhub install github Managed oauth, handles repos/issues/prs/commits. if youre doing any dev work this is essential.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r2u356/best_openclaw_skills_you_should_install_from/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 107
+  },
+  {
+    "id": "https---github-com-buffmcbighuge-comfyclaw",
+    "title": "BuffMcBigHuge/ComfyClaw",
+    "description": "A CLI for discovering, inspecting, and running ComfyUI workflows — with tag-based parameter overrides and server-aware introspection. ⭐ 8",
+    "url": "https://github.com/BuffMcBigHuge/ComfyClaw",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-builderz-labs-mission-control",
+    "title": "builderz-labs/mission-control",
+    "description": "The open-source dashboard for AI agent orchestration. Manage agent fleets, track tasks, monitor costs, and orchestrate workflows — with direct CLI integration, GitHub sync, and real-time monitoring. ⭐ 2090",
+    "url": "https://github.com/builderz-labs/mission-control",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-wallstreetbets-comments-l6wbbj-can-you-say-class-action",
+    "title": "Can you say \"CLASS ACTION LAWSUIT\". Fuck you RobinHood",
+    "description": "Edit 6: I created r/ClassActionRobinHood for people to gather around so that my reddit won't crash under the sheer force of autism that my inbox is receiving. This post was just out of frustration and memes over RHs bullshit corruption; I am not a laywer nor am I claiming that i'm going to create a",
+    "url": "https://www.reddit.com/r/wallstreetbets/comments/l6wbbj/can_you_say_class_action_lawsuit_fuck_you/",
+    "source": "reddit/wallstreetbets",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 86780
+  },
+  {
+    "id": "https---github-com-canbirlik-openclaw-use-cases",
+    "title": "Canbirlik/openclaw_use_cases",
+    "description": "Open Claw Use Cases ⭐ 0",
+    "url": "https://github.com/Canbirlik/openclaw_use_cases",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-caprihan-openclaw-n8n-stack",
+    "title": "caprihan/openclaw-n8n-stack",
+    "description": "Personal AI operating system in a box. OpenClaw + n8n pre-configured — AI agents with workflow automation, self-hosted. ⭐ 65",
+    "url": "https://github.com/caprihan/openclaw-n8n-stack",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-clawpatrol-openclaw-examples",
+    "title": "clawpatrol/openclaw-examples",
+    "description": "Demo projects and use cases for OpenClaw automation ⭐ 0",
+    "url": "https://github.com/clawpatrol/openclaw-examples",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-clawvisual-clawvisual",
+    "title": "clawvisual/clawvisual",
+    "description": "Turn long text into visual summaries. AI-powered image generation from articles, reports, or documents. ⭐ 9",
+    "url": "https://github.com/clawvisual/clawvisual",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-clearloop-cydonia",
+    "title": "clearloop/cydonia",
+    "description": "Core abstractions for your agentic workflow ⭐ 104",
+    "url": "https://github.com/clearloop/cydonia",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rjlra1-cloud-ai-agents-vs-self-host",
+    "title": "Cloud ai agents vs self hosted: What are people choosing in 2026?",
+    "description": "I spent the past few weeks trying to move some of my usual work stuff from a self-hosted AI agent to a cloud one. With Openclaw, I was handling client emails, scheduling posts, and summarizing reports. At first it felt cool, but honestly, things kept breaking. API keys wouldn’t refresh, and some of",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rjlra1/cloud_ai_agents_vs_self_hosted_what_are_people/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 8
+  },
+  {
+    "id": "https---github-com-codealive-ai-awesome-openclaw",
+    "title": "CodeAlive-AI/awesome-openclaw",
+    "description": "A curated collection of OpenClaw resources: GCP installation guide, best practices, and use cases ⭐ 20",
+    "url": "https://github.com/CodeAlive-AI/awesome-openclaw",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-codealive-ai-openclaw-use-cases",
+    "title": "CodeAlive-AI/openclaw-use-cases",
+    "description": "OpenClaw/Clawdbot/Moltbot use cases and benefits for various IT professions ⭐ 4",
+    "url": "https://github.com/CodeAlive-AI/openclaw-use-cases",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-cooperemma0707-design-openclaw-use-cases",
+    "title": "cooperemma0707-design/openclaw-use-cases",
+    "description": "OpenClaw AI Agent real-world use cases - e-commerce, content creation, freelance automation, enterprise scenarios ⭐ 1",
+    "url": "https://github.com/cooperemma0707-design/openclaw-use-cases",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1qvtfyk-cuabot-v10-released-an-mitl",
+    "title": "CuaBot v1.0 released, an MIT-licensed tool to run any GUI/TUI agent in a sandbox with co-operative computer-use, seamless per-window H.264 streaming, and multi-cursor support",
+    "description": "Hey r/LocalLaMa! CuaBot is our MIT-licensed tool to launch any CLI agent (Claude Code, OpenClaw, Codex, etc.) or GUI app inside a sandbox with computer-use. Agent windows appear natively on your desktop with a colored border.  This enables what I like to call *co-op mode*: you and your agent work",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qvtfyk/cuabot_v10_released_an_mitlicensed_tool_to_run/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 37
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-cust",
+    "title": "Custom Morning Brief",
+    "description": "You wake up and spend the first 30 minutes of your day catching up — scrolling news, checking your calendar, reviewing your to-do list, trying to figure out what matters today. What if all of that was already done and waiting for you as a text message?",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/custom-morning-brief.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-dail",
+    "title": "Daily YouTube Digest",
+    "description": "Start your day with a personalized summary of new videos from your favorite YouTube channels — no more missing content from creators you actually want to follow.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-youtube-digest.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-wallstreetbetsger-comments-1r5pa8w-der-saas-abverkauf-k",
+    "title": "Der SaaS Abverkauf,. KI vernichtet Software: Kritik zum neusten Video von Maxim Investiert",
+    "description": "Hey Leute, im neusten [Video von Maxim](https://www.youtube.com/watch?v=Mx625dfsONg) geht es um den SaaS-Abverkauf wegen den KI Agenten. Ich denke, dass Maxim da fundamental falsche Annahmen trifft und diese möchte Ich gerne begründen. Ich hoffe dass euch das weiterhilft. Ich beschäftige mich mit d",
+    "url": "https://www.reddit.com/r/wallstreetbetsGER/comments/1r5pa8w/der_saas_abverkauf_ki_vernichtet_software_kritik/",
+    "source": "reddit/wallstreetbetsGER",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 102
+  },
+  {
+    "id": "https---github-com-didier-durand-opencode-vibe",
+    "title": "didier-durand/opencode-vibe",
+    "description": "Opencode agent as Moltbook member (running as recurring Github job - no cost at all)  ⭐ 8",
+    "url": "https://github.com/didier-durand/opencode-vibe",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r0wks3-does-openclaw-actually-do-any",
+    "title": "Does OpenClaw actually do anything for you guys?",
+    "description": "I keep seeing people on social media hyping OpenClaw like it’s some game-changer, but honestly… it does absolutely nothing for me. I’m using the official setup, clean install, Opus 4.5 model, everything exactly as documented. But whenever I actually ask it to do something, it just replies like a no",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r0wks3/does_openclaw_actually_do_anything_for_you_guys/",
+    "source": "reddit/openclaw",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 252
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1re1ukj-dont-use-llm-when-you-dont-ne",
+    "title": "Don't use llm when you don't need llm",
+    "description": "I'm cheap.  I haven't played with the heartbeat functionality because I don't see the value justifying the cost of an llm call every 30 minutes. What I do instead is use openclaw to create a python script to complete whatever I want it to do... read it's Gmail inbox, update the Linux server, scrap",
+    "url": "https://www.reddit.com/r/openclaw/comments/1re1ukj/dont_use_llm_when_you_dont_need_llm/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 86
+  },
+  {
+    "id": "https---github-com-dqz00116-skill-lib",
+    "title": "Dqz00116/skill-lib",
+    "description": " A curated collection of reusable AI Agent Skills for standardized workflows, best practices, and domain expertise. ⭐ 14",
+    "url": "https://github.com/Dqz00116/skill-lib",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-dyna",
+    "title": "Dynamic Dashboard with Sub-agent Spawning",
+    "description": "Static dashboards show stale data and require constant manual updates. You want real-time visibility across multiple data sources without building a custom frontend or hitting API rate limits.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/dynamic-dashboard.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-erwanlorteau-bmad-openclaw",
+    "title": "ErwanLorteau/BMAD_Openclaw",
+    "description": "Bridging the BMad Method to OpenClaw  —  Structured AI-driven development workflows. ⭐ 228",
+    "url": "https://github.com/ErwanLorteau/BMAD_Openclaw",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-even",
+    "title": "Event Guest Confirmation",
+    "description": "You're hosting an event — a dinner party, a wedding, a company offsite — and you need to confirm attendance from a list of guests. Manually calling 20+ people is tedious: you play phone tag, forget who said what, and lose track of dietary restrictions or plus-ones. Texting works sometimes, but peopl",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/event-guest-confirmation.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-evolinkai-awesome-openclaw-usecases-moltbook",
+    "title": "EvoLinkAI/awesome-openclaw-usecases-moltbook",
+    "description": "70 real-world OpenClaw use cases from the Moltbook community. Everyday life, automation, data analysis, security & more. ⭐ 775",
+    "url": "https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-fami",
+    "title": "Family Calendar Aggregation & Household Assistant",
+    "description": "Modern families juggle five or more calendars — work, personal, shared family, kids' school, extracurriculars — across different platforms and formats. Important events slip through the cracks because no single view exists. Meanwhile, household coordination (grocery lists, pantry inventory, appointm",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/family-calendar-household-assistant.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1r0or7s-femtobot-a-10mb-rust-agent-",
+    "title": "Femtobot: A 10MB Rust Agent for Low-Resource Machines",
+    "description": "I wanted to run [OpenClaw](https://github.com/openclaw/openclaw)\\-style workflows on very low-resource machines (older Raspberry Pis, cheap VPS instances), but most “lightweight” stacks still end up dragging in large runtimes and slow startup costs. After trying [nanobot](https://github.com/HKUDS/n",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r0or7s/femtobot_a_10mb_rust_agent_for_lowresource/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 179
+  },
+  {
+    "id": "https---github-com-ffring-openclaw-cases",
+    "title": "ffring/openclaw-cases",
+    "description": "OpenClaw Cases — Real AI Agent Use Cases ⭐ 0",
+    "url": "https://github.com/ffring/openclaw-cases",
+    "source": "github-search",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r7cqia-finally-setting-up-openclaw-",
+    "title": "Finally setting up OpenClaw Safely and Securely!",
+    "description": "I’ve been fascinated by OpenClaw and was ready to dive in. I wiped an old Surface Pro laptop and then started reading up and watching videos on OpenClaw. I’m not the MOST technically knowledgeable person so bear with me. From what I’ve learned, there are two main ways to setup OpenClaw safely: 1.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r7cqia/finally_setting_up_openclaw_safely_and_securely/",
+    "source": "reddit/AI_Agents",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 11
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1r67b43-forked-openclaw-to-run-full",
+    "title": "Forked OpenClaw to run fully air-gapped (no cloud deps)",
+    "description": "I've been playing with OpenClaw, but I couldn't actually use it for anything work-related because of the data egress. The agentic stuff is cool, but sending everything to OpenAI/cloud APIs is a non-starter for my setup. So I spent the weekend ripping out the cloud dependencies to make a fork that r",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r67b43/forked_openclaw_to_run_fully_airgapped_no_cloud/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 39
+  },
+  {
+    "id": "https---github-com-gaoyangz77-easyclaw",
+    "title": "gaoyangz77/easyclaw",
+    "description": "EasyClaw is an easy-mode runtime and UI layer built on top of OpenClaw, designed to turn long-lived AI agents into personal digital butlers.  Instead of configuring skills or workflows, users interact through natural-language rules and feedback, allowing a single agent to evolve, adapt, and better understand its owner over time. ⭐ 197",
+    "url": "https://github.com/gaoyangz77/easyclaw",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1qrywko-getting-openclaw-to-work-wi",
+    "title": "Getting OpenClaw to work with Qwen3:14b including tool calling and MCP support",
+    "description": "OpenClaw (formally known as ClawdBot, formally know as Moltbot) is fun. It cool to play around with and to understand where technology might be moving. Playing around with it is even more fun when you get it working with open models. After two days of puzzling, I got local tool calling working on Qw",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qrywko/getting_openclaw_to_work_with_qwen314b_including/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 8
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r49r9m-give-your-openclaw-permanent-",
+    "title": "Give your OpenClaw permanent memory",
+    "description": "After my last Clawdbot 101 post, I have been getting a ton of messages asking for advice and help. I've been trying to solve what I think is the hardest problem with Clawdbot space: making your bot actually remember things properly. I have been working on the solution behind this post all week. And",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r49r9m/give_your_openclaw_permanent_memory/",
+    "source": "reddit/openclaw",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 413
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-over",
+    "title": "Goal-Driven Autonomous Tasks",
+    "description": "Your AI agent is powerful but reactive — it only works when you tell it what to do. What if it knew your goals and proactively came up with tasks to move you closer to them every single day, without being asked?",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/overnight-mini-app-builder.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rcesv1-google-banned-paying-customer",
+    "title": "Google BANNED Paying Customers From Antigravity",
+    "description": "Google is banning OpenClaw users from Antigravity and keeping their $250 Google quietly suspended hundreds of paying Gemini Pro subscribers. Support saying \"we are unable to reverse the suspension.\" Someone built an OAuth plugin that connected it to Google's Antigravity backend to access Gemini m",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rcesv1/google_banned_paying_customers_from_antigravity/",
+    "source": "reddit/openclaw",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 315
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rbh7p2-got-my-openclaw-agent-to-stre",
+    "title": "Got my OpenClaw agent to stream everything it’s doing in real-time to my iPhone’s lock screen.",
+    "description": "I got tired of staring at “typing…” indicators during long tasks, so I built an iOS Live Activity for my lock screen that streams every step of my OpenClaw agent’s thinking, the tools it calls, and the cost. Open source below 👇    Here’s a link to the repo: [Chowder-iOS](https://github.com/newmater",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rbh7p2/got_my_openclaw_agent_to_stream_everything_its/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 561
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-habi",
+    "title": "Habit Tracker & Accountability Coach",
+    "description": "You've tried every habit tracker app out there. They all work for a week, then you stop opening them. The problem isn't the app — it's that tracking habits is passive. What if your agent actively reached out to you, asked how your day went, and adapted its approach based on whether you're on a strea",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/habit-tracker-accountability-coach.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-heal",
+    "title": "Health & Symptom Tracker",
+    "description": "Identifying food sensitivities requires consistent logging over time, which is tedious to maintain. You need reminders to log and analysis to spot patterns.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/health-symptom-tracker.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r3cid8-heres-how-i-got-openclaw-to-r",
+    "title": "Here's How I Got OpenClaw to Run All Night While I Sleep as a Non-Technical Person",
+    "description": "I've been experimenting with OpenClaw (formerly Clawdbot) for the past few days. The first couple of nights were frustrating — I'd give it a task, it would do one thing, then just stop. No iteration, no follow-up. Basically an expensive one-shot prompt. Day 4, I finally cracked it. Woke up this mor",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r3cid8/heres_how_i_got_openclaw_to_run_all_night_while_i/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 263
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases",
+    "title": "hesamsheikh/awesome-openclaw-usecases",
+    "description": "A community collection of OpenClaw use cases for making life easier. ⭐ 23440",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rgsbht-how-does-your-agent-handle-m",
+    "title": "How does your agent handle messy web pages? Curious what everyone's doing",
+    "description": "I've been building with OpenClaw and one thing that keeps bugging me is web browsing. My agent hits a page — restaurant, SaaS pricing page, whatever — and has to make sense of a wall of HTML, JS, and tracking scripts just to find basic info like hours or pricing. Right now I'm just fetching and dum",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rgsbht/how_does_your_agent_handle_messy_web_pages/",
+    "source": "reddit/AI_Agents",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 6
+  },
+  {
+    "id": "https---www-reddit-com-r-claudeai-comments-1rga7f5-how-i-built-a-13agent-claude-",
+    "title": "How I built a 13-agent Claude team where agents review each other's work - full setup guide",
+    "description": "https://reddit.com/link/1rga7f5/video/dhy66fie52mg1/player # The setup that shouldn't work but does I have 13 AI agents that work on marketing for my product. They run every 15 minutes, review each other's work, and track everything in a database. When one drafts content, others critique it befor",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1rga7f5/how_i_built_a_13agent_claude_team_where_agents/",
+    "source": "reddit/ClaudeAI",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 438
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r62ela-how-i-run-openclaw-for-10mont",
+    "title": "How I Run OpenClaw for $10/Month",
+    "description": "I’m an influencer marketing specialist working for a large supplement brand. Two of my biggest workloads are influencer discovery and filling influencer data into spreadsheets. These used to consume a lot of my time until I figured out this OpenClaw setup. Setting up OpenClaw is not hard. It’s rela",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r62ela/how_i_run_openclaw_for_10month/",
+    "source": "reddit/openclaw",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 212
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r9tv3d-how-i-set-up-openclaw-on-a-he",
+    "title": "How I Set Up OpenClaw on a Hetzner VPS — Full Guide",
+    "description": "I set up [OpenClaw](https://github.com/openclaw/openclaw) on a cheap Hetzner server and I talk to it through Telegram. Here's exactly how I did it so you can too. Total cost: **\\~$7.60/month** for the server + whatever AI model you use. # Step 1: Create the Server Go to [hetzner.com](https://hetz",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r9tv3d/how_i_set_up_openclaw_on_a_hetzner_vps_full_guide/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 95
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rlgwx5-how-to-let-your-agent-start-",
+    "title": "How to Let Your Agent Start Its Own Life with One Click",
+    "description": "Recently I tried a project called AIvilization. The idea is quite simple: instead of interacting with AI only through prompts, AI agents are placed into a shared virtual town. Inside this town, different agents can exist as residents. They can communicate with each other, perform tasks, and post up",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rlgwx5/how_to_let_your_agent_start_its_own_life_with_one/",
+    "source": "reddit/AI_Agents",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 9
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r9nq3z-how-you-guys-made-ai-agents-",
+    "title": "How you guys made AI agents ?",
+    "description": "I know popular framewors like LangGraph , n8n ( Not a big fan of this ) , crewAI, etc . But what you guys really use ? For my setup , I use claude code for coding agents , and openclaw for other agents ( It's a bit unmature tech , it's like claude connected on whatsapp + my browser ) , but yeah it",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r9nq3z/how_you_guys_made_ai_agents/",
+    "source": "reddit/AI_Agents",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 17
+  },
+  {
+    "id": "https---github-com-huangyuchuh-comfyui-skills-openclaw",
+    "title": "HuangYuChuh/ComfyUI_Skills_OpenClaw",
+    "description": "A ComfyUI workflow skill for OpenClaw and other AI agents that support skills. ⭐ 12",
+    "url": "https://github.com/HuangYuChuh/ComfyUI_Skills_OpenClaw",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-huisezhiyin-sdd-riper",
+    "title": "huisezhiyin/sdd-riper",
+    "description": "The Constitution for Human-AI Collaboration: Spec-Driven Development protocol that transforms AI from code generator to reliable builder. Includes RIPER workflow and ready-to-use skills. ⭐ 18",
+    "url": "https://github.com/huisezhiyin/sdd-riper",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1req9ad-i-abandoned-my-wife-and-kids-",
+    "title": "I abandoned my wife and kids for a week trying to figure out OpenClaw",
+    "description": "I managed to get 3 agents working and I am still married.   Don't ruin your life trying to setup OpenClaw",
+    "url": "https://www.reddit.com/r/openclaw/comments/1req9ad/i_abandoned_my_wife_and_kids_for_a_week_trying_to/",
+    "source": "reddit/openclaw",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 88
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r78fy6-i-asked-opus-46-to-give-me-a-",
+    "title": "I asked OPUS 4.6 to give me a guide to reduce Openclaw costs. Here was it's response:",
+    "description": "\\# OpenClaw Token Cost Optimization — Implementation Guide \\*\\*Purpose:\\*\\* You are to implement and maintain these cost-reduction practices at all times. These are compiled from community best practices, official documentation, YouTube guides (Matt Ganzac, Avi Chawla / Daily Dose of DS), X posts",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r78fy6/i_asked_opus_46_to_give_me_a_guide_to_reduce/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 166
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1qyw1rc-i-built-3-ai-employees-engine",
+    "title": "I built 3 AI Employees (Engineer, Researcher, Designer) that run locally 24/7 and I control them entirely from Telegram. This feels like hiring a remote team.",
+    "description": "I got frustrated with the whole \"chat with AI\" paradigm. I don't want a conversation. I want work done. So I spent the last few weeks building what basically feels like a tiny remote team using OpenClaw. Three agents, each with their own role, running locally on my machine. I manage everything thro",
+    "url": "https://www.reddit.com/r/openclaw/comments/1qyw1rc/i_built_3_ai_employees_engineer_researcher/",
+    "source": "reddit/openclaw",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 303
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r0kvuy-i-built-a-cli-that-deploys-op",
+    "title": "I built a CLI that deploys OpenClaw on a $4.99/mo VPS in one command with everything pre-configured. Stop buying Mac Minis.",
+    "description": "Every other OpenClaw thread: \"Do I need to buy a Mac Mini for this?\" No. A $4.99/month Hetzner VPS runs it perfectly. So I built a tool to make the setup trivial. ClawControl — open-source CLI that deploys a fully configured OpenClaw instance on a VPS. You run it, answer a few prompts, and it hand",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r0kvuy/i_built_a_cli_that_deploys_openclaw_on_a_499mo/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 130
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rdwfrc-i-built-a-cozy-office-for-my-",
+    "title": "I built a cozy office for my AI agent — it shows real-time status, cron jobs, and has a pet dog 🐕",
+    "description": "I've been running OpenClaw as my personal AI assistant for a while and got tired of Telegram (in my case) UI. So I built a cozy 2.5D isometric office where my agent \"lives.\" What it shows: • Real-time working/idle status (agent sits at desk and types when working)   • Thought bubbles with last mes",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rdwfrc/i_built_a_cozy_office_for_my_ai_agent_it_shows/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 98
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rcko7i-i-built-a-selfhosted-web-ui-f",
+    "title": "I built a self-hosted web UI for OpenClaw and open-sourced it",
+    "description": "Like most of you, it didn't take long before I wanted more visibility and control over my agent. Sub-agent tasks running, files being edited, cron jobs firing, tokens burning and no way to actually see any of it happening. So I started building a dashboard. Just for myself, React frontend, Hono bac",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rcko7i/i_built_a_selfhosted_web_ui_for_openclaw_and/",
+    "source": "reddit/openclaw",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 117
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rjkeu9-i-built-my-own-agent-from-sc",
+    "title": "I built my own agent from scratch in under 72 hours",
+    "description": "I had already tried LangChain, CrewAI and others a while back and moved on. Tool use felt unreliable, setup was painful, results were disappointing. Then OpenClaw crossed 100k GitHub stars in under a week. That's not hype about the project itself, it's a signal that the space finally became accessi",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rjkeu9/i_built_my_own_agent_from_scratch_in_under_72/",
+    "source": "reddit/AI_Agents",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 65
+  },
+  {
+    "id": "https---www-reddit-com-r-selfhosted-comments-1r3p7s7-i-built-nanoclaw-a-lightwei",
+    "title": "I built NanoClaw - a lightweight self-hosted AI assistant with container isolation, WhatsApp integration, scheduled jobs, memory",
+    "description": "Repo: [github.com/qwibitai/nanoclaw](http://github.com/qwibitai/nanoclaw) I built this as an alternative to OpenClaw after realizing I had no idea what was running on my machine. OpenClaw is \\~400K lines with dozens of dependencies and there's no way I could meaningfully audit or even understand th",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1r3p7s7/i_built_nanoclaw_a_lightweight_selfhosted_ai/",
+    "source": "reddit/selfhosted",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 27
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1qvjpmt-i-connected-openclaw-to-lm-",
+    "title": "I connected OpenClaw to LM Studio (Free local AI setup guide)",
+    "description": "I made a complete tutorial on running OpenClaw with local AI models using LM Studio **What's covered** * Installing LM Studio on Windows * Downloading and configuring local models * Connecting to OpenClaw (full config walkthrough) * Testing the setup live **Key points** * Works with GPT-OSS, Qwe",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qvjpmt/i_connected_openclaw_to_lm_studio_free_local_ai/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 7
+  },
+  {
+    "id": "https---www-reddit-com-r-superstonk-comments-pmj9yk-i-found-the-entire-naked-sho",
+    "title": "I found the entire naked shorting game plan playbook posted on a forum in 2004. They called it \"Cellar Boxing\". + Yahoo / Morningstar censoring GME data depending on your IP. It's not a glitch.",
+    "description": "Hello beautiful apes! I have 2 points to show you. First is that Yahoo is showing completely different values depending on your IP. Try using a VPN with a different country and you'll see. Second is that I stumbled upon the ***ENTIRE FUCKING GAME PLAN*** of the naked shorting scheme. I guess an in",
+    "url": "https://www.reddit.com/r/Superstonk/comments/pmj9yk/i_found_the_entire_naked_shorting_game_plan/",
+    "source": "reddit/Superstonk",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 61604
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rmgjm0-i-give-my-ai-agent-a-subconsc",
+    "title": "I give my AI Agent a \"subconscious\" and taught it to think. Now It thinks between conversations, costs $2-3/month, and it's open source. Here's the full build story.",
+    "description": "I've been building a personal AI assistant called Max for a few months now. The memory system i built (Total Recall) was working well: it remembered, forgot naturally, and consolidated overnight through what I call the Dream Cycle (I've written about both previously if you want the deep dive). But",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rmgjm0/i_give_my_ai_agent_a_subconscious_and_taught_it/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 134
+  },
+  {
+    "id": "https---www-reddit-com-r-clawdbot-comments-1qtymgg-i-got-openclaw-running-on-my-",
+    "title": "I got OpenClaw running on my 10 year old Android phone (Ubuntu Touch) and it’s actually FUN!",
+    "description": "Hey everyone, I kept seeing people buying up Mac Minis just to run the new Clawdbot/OpenClaw setups, and honestly, I didn't want to drop that kind of cash when I had perfectly good \"e waste\" sitting in a drawer. So, I decided to try something a bit cursed: I took my 10-year-old OnePlus 5T, unlocke",
+    "url": "https://www.reddit.com/r/clawdbot/comments/1qtymgg/i_got_openclaw_running_on_my_10_year_old_android/",
+    "source": "reddit/clawdbot",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 220
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rnudeg-i-just-ran-143m-tokens-for-94",
+    "title": "I just ran 143M tokens for $94 with OpenClaw. Check your setup.",
+    "description": "I was looking at OpenClaw logs today and noticed something that honestly surprised me. The screenshot shows 143.0M tokens used and $94.16 total cost, just for today. (I completed 3 phases today for a 7 phase saas product launch) So I did the math. $94.16 divided by 143,000,000 tokens equals $0.00",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rnudeg/i_just_ran_143m_tokens_for_94_with_openclaw_check/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 156
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rbp25b-i-left-two-ai-agents-alone-in",
+    "title": "I left two AI agents alone in a Discord channel overnight. By morning, they had built their own memory system and collaboration protocol.",
+    "description": "**I left two AI agents alone in a Discord channel overnight. By morning, they had built their own memory system and collaboration protocol.** I installed Openclaw agents on two separate MacBooks and invited them to the same Discord channel. I wanted to see how two physically separated agents would",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rbp25b/i_left_two_ai_agents_alone_in_a_discord_channel/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 297
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1r8ectu-i-plugged-a-30-radio-into-m",
+    "title": "I plugged a $30 radio into my Mac mini and told my AI \"connect to this\" — now I control my smart home and send voice messages over radio with zero internet",
+    "description": "Hey r/LocalLLaMA, So I live in Ukraine during the war. Power goes out a lot here – russia regularly attacks our power grid. When it happens, internet dies, cell towers go dark, and suddenly all my smart home stuff and AI tools become useless. Got tired of it, so I did something kind of ridiculous.",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r8ectu/i_plugged_a_30_radio_into_my_mac_mini_and_told_my/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Smart Home & IoT",
+    "date_added": "2026-03-11",
+    "score": 461
+  },
+  {
+    "id": "https---www-reddit-com-r-askclaw-comments-1roszq6-i-read-every-openclaw-mistake-",
+    "title": "I read every OpenClaw mistake on Reddit and built a bulletproof setup guide so beginners don’t waste weeks",
+    "description": "(Full guide [here](https://closedpaw.info/openclawguide)) I'll tell you this right now, I'm not an engineer, but I was able to get my Openclaw fully working for me with Multiple marketing Agents. I did it differently though, I knew I didn't wanna try this and have a bunch of headaches and screw ups",
+    "url": "https://www.reddit.com/r/AskClaw/comments/1roszq6/i_read_every_openclaw_mistake_on_reddit_and_built/",
+    "source": "reddit/AskClaw",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 131
+  },
+  {
+    "id": "https---www-reddit-com-r-myclaw-comments-1rnyn3e-i-read-every-openclaw-mistake-o",
+    "title": "I read every OpenClaw mistake on Reddit and built a bulletproof setup guide so beginners don’t waste weeks",
+    "description": "I'll tell you this right now, I'm not an engineer, but I was able to get my Openclaw fully working for me with Multiple marketing Agents. I did it differently though, I knew I didn't wanna try this and have a bunch of headaches and screw ups, so I went to reddit first. Before I even touched anythin",
+    "url": "https://www.reddit.com/r/myclaw/comments/1rnyn3e/i_read_every_openclaw_mistake_on_reddit_and_built/",
+    "source": "reddit/myclaw",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 114
+  },
+  {
+    "id": "https---www-reddit-com-r-n8n-comments-1r24b7c-i-rebuilt-most-of-openclaws-core-f",
+    "title": "I rebuilt most of OpenClaw's core functionality in a single n8n workflow",
+    "description": "**What the workflow covers:** * **Multi-channel comms** — Telegram, WhatsApp, and Email all routing through one agent. Switch channels mid-conversation and it picks up where you left off. * **Persistent memory** — Postgres chat history + daily vector store summaries via Supabase. It actually rememb",
+    "url": "https://www.reddit.com/r/n8n/comments/1r24b7c/i_rebuilt_most_of_openclaws_core_functionality_in/",
+    "source": "reddit/n8n",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 648
+  },
+  {
+    "id": "https---www-reddit-com-r-n8n-comments-1ri8922-i-replaced-100month-in-gemini-api-",
+    "title": "I Replaced $100+/month in GEMINI API Costs with a €2000 eBay Mac Studio — Here is my Local, Self-Hosted AI Agent System Running Qwen 3.5 35B at 60 Tokens/Sec (The Full Stack Breakdown)",
+    "description": "# TL;DR: self-hosted \"Trinity\" system — three AI agents (Lucy, Neo, Eli) coordinating through a single Telegram chat, powered by a Qwen 3.5 35B-A3B-4bit model running locally on a Mac Studio M1 Ultra I got for under €2K off eBay. No more paid LLM API costs. Zero cloud dependencies. Every component —",
+    "url": "https://www.reddit.com/r/n8n/comments/1ri8922/i_replaced_100month_in_gemini_api_costs_with_a/",
+    "source": "reddit/n8n",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 283
+  },
+  {
+    "id": "https---www-reddit-com-r-macstudio-comments-1ri8ldg-i-replaced-100month-in-gemin",
+    "title": "I Replaced $100+/month in GEMINI API Costs with a €2000 eBay Mac Studio — Here is my Local, Self-Hosted AI Agent System Running Qwen 3.5 35B at 60 Tokens/Sec (The Full Stack Breakdown)",
+    "description": "# TL;DR: self-hosted \"Trinity\" system — three AI agents (Lucy, Neo, Eli) coordinating through a single Telegram chat, powered by a Qwen 3.5 35B-A3B-4bit model running locally on a Mac Studio M1 Ultra I got for under €2K off eBay. No more paid LLM API costs. Zero cloud dependencies. Every component —",
+    "url": "https://www.reddit.com/r/MacStudio/comments/1ri8ldg/i_replaced_100month_in_gemini_api_costs_with_a/",
+    "source": "reddit/MacStudio",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 194
+  },
+  {
+    "id": "https---www-reddit-com-r-sphynx-comments-199y9rk-i-rescued-the-tattooed-cartel-c",
+    "title": "I rescued the tattooed cartel cat that was living in a Mexican prison",
+    "description": "This is my baby, Kilo. In March 2023 I saw on the news and social media that a Sphynx cat had been found living inside of a Mexican prison. This is my understanding of his story: His owner was a leader in the Los Mexicles cartel, and was in prison for murder among other charges. After a party on New",
+    "url": "https://www.reddit.com/r/sphynx/comments/199y9rk/i_rescued_the_tattooed_cartel_cat_that_was_living/",
+    "source": "reddit/sphynx",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 76702
+  },
+  {
+    "id": "https---www-reddit-com-r-openclawsetup-comments-1ratn8g-i-spent-a-week-diving-de",
+    "title": "I spent a week diving deep into OpenClaw (the #5 most-starred GitHub repo right now). Here are the tips &amp; tricks nobody's talking about.",
+    "description": "tl;dr: OpenClaw is a self-hosted AI agent that lives in WhatsApp/Telegram/Discord, remembers everything, and can literally teach itself new skills. It's currently exploding. Here's how to actually use it well. OpenClaw (formerly Clawdbot, formerly Moltbot) hit the top of GitHub seemingly overnight",
+    "url": "https://www.reddit.com/r/openclawsetup/comments/1ratn8g/i_spent_a_week_diving_deep_into_openclaw_the_5/",
+    "source": "reddit/openclawsetup",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 257
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1qz9rip-i-spent-a-week-testing-openc",
+    "title": "I spent a week testing OpenClaw. Cool demo, but I don’t think generalist AI agents are the right move for real ops.",
+    "description": "OpenClaw is the new hot thing in AI agents right now. It’s open-source, it’s self-hosted, and it’s being sold as this personal assistant that plugs into your apps and just… does stuff for you. The “AI butler on your computer” pitch. The GitHub stars shot past 100k stupid fast, which is basically ca",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1qz9rip/i_spent_a_week_testing_openclaw_cool_demo_but_i/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 23
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rmstco-i-started-wearing-a-mic-so-m",
+    "title": "I started wearing a mic so my AI agent system could act as a chief of staff. Here's where I'm stuck.",
+    "description": "About a month ago I caught wind of OpenClaw and was immediately drawn to the idea of AI agents that could take messy, real-world input and turn it into something actionable. I jumped in, and what started as an experiment has turned into a multi-agent orchestration layer that captures my spoken thoug",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rmstco/i_started_wearing_a_mic_so_my_ai_agent_system/",
+    "source": "reddit/AI_Agents",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 11
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rbbj9j-i-stopped-organizing-files-m",
+    "title": "I stopped organizing files. My AI agent does it now — here's the tool I built",
+    "description": "I kept losing files in nested folder hierarchies. So instead of building another document management system, I built a CLI tool that lets my AI agent handle file organization. **The idea**: You don't organize files. Your agent does. You just toss files at it and ask for them later in plain English.",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rbbj9j/i_stopped_organizing_files_my_ai_agent_does_it/",
+    "source": "reddit/AI_Agents",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 48
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rfkeqd-i-used-openclaw-to-build-4-re",
+    "title": "I used OpenClaw to build 4 real products and launch a business in 3 weeks. Here's what actually happened.",
+    "description": "Not a flex post. Just want to share what's actually possible because 3 weeks ago I didn't know what OpenClaw was. I'm not a developer. I know my way around tech but I'm not writing code from scratch. I set up OpenClaw on a VPS, connected it to Claude, and basically treated it like a cofounder that",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rfkeqd/i_used_openclaw_to_build_4_real_products_and/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 177
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r2039d-i-wanted-to-like-openclaw-bu",
+    "title": "I wanted to like OpenClaw but between setup pain and trust issues I’m out",
+    "description": "I’m not here to say OpenClaw is bad. What people are building with it is honestly impressive. But I think a lot of folks are quietly bouncing for the same reason I did. It starts with the install. Every time I get motivated, I open a guide and suddenly I’m dealing with dependencies, version misma",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r2039d/i_wanted_to_like_openclaw_but_between_setup_pain/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 38
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1rmqxa7-i-wear-a-mic-all-day-and-fe",
+    "title": "I wear a mic all day and feed transcripts to an AI agent system. The privacy case for doing this locally is obvious. Looking for guidance.",
+    "description": "About a month ago I started building a passive audio capture system that feeds into my OpenClaw system to act as a Chief of Staff. The system then processes everything into actionable outputs overnight: journal entries, calendar events, project tracking, and working prototypes of tools I need. It w",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rmqxa7/i_wear_a_mic_all_day_and_feed_transcripts_to_an/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 19
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rmgt2m-i-went-through-218-openclaw-t",
+    "title": "I went through 218 OpenClaw tools so you don’t have to, here are the best ones by category",
+    "description": "I’ve been exploring the OpenClaw ecosystem lately and ended up collecting **218 OpenClaw-related tools**. There’s a lot of cool stuff out there, but also a lot to sift through. So I thought I’d share a curated list of the ones that look the **most useful and free**, grouped by category, in case it",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rmgt2m/i_went_through_218_openclaw_tools_so_you_dont/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 498
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1qypanx-i-wrote-up-how-i-actually-run",
+    "title": "I wrote up how I actually run OpenClaw without burning money or hitting quota walls",
+    "description": "I kept seeing the same questions about OpenClaw over and over, so I wrote up how I actually run it day to day after breaking it a bunch of times. This is not a hype post and it’s not a “best setup” claim. It’s just what ended up working for me once the novelty wore off and I wanted something stable",
+    "url": "https://www.reddit.com/r/openclaw/comments/1qypanx/i_wrote_up_how_i_actually_run_openclaw_without/",
+    "source": "reddit/openclaw",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 234
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1raxis4-im-out-thanks-for-all-the-fis",
+    "title": "I'm out - Thanks for all the fish.. umm lobster!",
+    "description": "This is written by a greybeard developer. I’ve been there and done that. When I first saw this project it honestly looked really fun to work with. I spun up some models, built a few skills, and started poking around. But after spending real time with it, everything feels kind of lackluster and hones",
+    "url": "https://www.reddit.com/r/openclaw/comments/1raxis4/im_out_thanks_for_all_the_fish_umm_lobster/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 365
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rkjcva-ive-been-lurking-ropenclaw-fo",
+    "title": "I've been lurking r/openclaw for weeks. the dropout pattern is always the same.",
+    "description": "I've been replying to help threads in r/openclaw for weeks now. the same story plays out every time. week 1: someone sees a viral tweet, gets hyped, installs openclaw. first conversation feels magical. week 2: something breaks. API costs spike because opus was left as default. a clawhub skill loop",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rkjcva/ive_been_lurking_ropenclaw_for_weeks_the_dropout/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 191
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r6t1vc-ive-been-running-ai-agents-2",
+    "title": "I've been running AI agents 24/7 for 3 months. Here are the mistakes that will bite you.",
+    "description": "Been running OpenClaw and a few other agent frameworks on my homelab for about 3 months now. Here's what I wish someone told me before I started. \\*\\*1. Not setting explicit boundaries in your config\\*\\* Your agent will interpret vague instructions creatively. \"Check my email\" turned into my agent",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r6t1vc/ive_been_running_ai_agents_247_for_3_months_here/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 352
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rp8t9r-ive-helped-50-people-debug-th",
+    "title": "I've helped 50+ people debug their Openclaw. These 5 mistakes were in almost every single setup.",
+    "description": "Between DMs, reddit threads, and discord I've now looked at over 50 different openclaw setups. broken ones, working ones, \"it works but costs $200/month\" ones. The problems are almost never unique. it's the same 5 things. every time. **1. Opus as the default model** This is the #1 most expensive",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rp8t9r/ive_helped_50_people_debug_their_openclaw_these_5/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 288
+  },
+  {
+    "id": "https---www-reddit-com-r-claudeai-comments-1r7s5v6-in-the-age-of-ai-time-may-be-",
+    "title": "In the Age of AI, Time May Be the Last Thing That Truly Matters",
+    "description": "During Chinese New Year, a story went viral in China. A business owner used OpenClaw to send personalized New Year greeting messages to each of his 600+ employees — each one tailored to their role and performance. The employees who received them were genuinely moved. They had no idea the messages we",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1r7s5v6/in_the_age_of_ai_time_may_be_the_last_thing_that/",
+    "source": "reddit/ClaudeAI",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 96
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-inbo",
+    "title": "Inbox De-clutter",
+    "description": "Newsletters can take up the inbox like nothing else. Often times they pile-up without being opened at all.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/inbox-declutter.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-india-comments-1rfzo8i-india-has-17m-developers-on-g",
+    "title": "India has 17M+ developers on GitHub. We still can't name 5 Indian-built open-source AI products. So I started building one. - 500+ GitHub stars in 2 weeks",
+    "description": "Every week there's a post on this sub about **India's AI problem**. Data extraction, foreign ownership, training **data leaving the country**. The comments are always the same, people agree, get frustrated, and go back to their jobs. The analysis is usually correct. That's what makes the loop exhau",
+    "url": "https://www.reddit.com/r/AI_India/comments/1rfzo8i/india_has_17m_developers_on_github_we_still_cant/",
+    "source": "reddit/AI_India",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 121
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1qt0onq-installing-openclaw-formerl",
+    "title": "installing OpenClaw (formerly ClawdBot) locally on Windows",
+    "description": "Just made a tutorial on installing OpenClaw (formerly ClawdBot) locally on Windows instead of paying for VPS. Saved me $15/month and works perfectly with Docker.      [https://www.youtube.com/watch?v=gIDz\\_fXnZfU](https://www.youtube.com/watch?v=gIDz_fXnZfU)      Install Docker + WSL → Clone OpenCla",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qt0onq/installing_openclaw_formerly_clawdbot_locally_on/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 6
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rds8wk-introducing-smallclaw-opencla",
+    "title": "Introducing SmallClaw - Openclaw for Small/Local LLMS",
+    "description": "***/\\* UPDATE RELEASED VERSION 1.0.1 OUT NOW \\*\\\\*** Alright guys - So if youre anything like me, you're in the whole world of AI and tech and saw this new wave of **Openclaw**. And like many others decided to give it a try, only to discover that it really does need these more high end sort of mo",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rds8wk/introducing_smallclaw_openclaw_for_smalllocal_llms/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 355
+  },
+  {
+    "id": "https---github-com-ionclaw-org-ionclaw",
+    "title": "ionclaw-org/ionclaw",
+    "description": "A cross-platform AI agent orchestrator in C++ that turns any device — including your phone — into a self-contained, multi-agent automation platform ⭐ 29",
+    "url": "https://github.com/ionclaw-org/ionclaw",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rpmfsm-it-was-never-openclaw-it-was-",
+    "title": "It was never openclaw, it was always claude",
+    "description": "I am beginning to realize that the magic we all experienced with Openclaw in the very beginning was because of opus. The model drop coincided with the rise of Openclaw, and it’s just the most cracked one out there still. Openclaw is freeing for all AI models in that they can do tool calls more free",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rpmfsm/it_was_never_openclaw_it_was_always_claude/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 225
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1quyeou-its-been-a-big-week-for-agen",
+    "title": "It's been a big week for Agentic AI ; Here are 10 massive developments you might've missed:",
+    "description": "* Chrome launches Auto Browse with Gemini * OpenAI releases Prism research workspace * Claude makes work tools interactive A collection of AI Agent Updates!🧵 **1. Google Chrome Launches Auto Browse with Gemini** Handles routine tasks like sourcing party supplies or organizing trip logistics from",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1quyeou/its_been_a_big_week_for_agentic_ai_here_are_10/",
+    "source": "reddit/AI_Agents",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 166
+  },
+  {
+    "id": "https---github-com-ivonne-openclaw-open-claw-use-cases",
+    "title": "ivonne-openclaw/open-claw-use-cases",
+    "description": "Production-ready implementations for OpenClaw use cases ⭐ 0",
+    "url": "https://github.com/ivonne-openclaw/open-claw-use-cases",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r6duso-im-super-unimpressed-by-openc",
+    "title": "I’m super unimpressed by OpenClaw, anyone else?",
+    "description": "Genuinely, has anyone gotten OpenClaw to do anything useful for them? Besides spamming social media with bot posts… I tried setting it up with a simple real-world task and it utterly failed. (Scrape apartment listings and ping me when a new listing appears) The one thing that might actually be bet",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r6duso/im_super_unimpressed_by_openclaw_anyone_else/",
+    "source": "reddit/openclaw",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 145
+  },
+  {
+    "id": "https---github-com-jbapckfan-openclaw-playbook",
+    "title": "Jbapckfan/openclaw-playbook",
+    "description": "OpenClaw Creative Use Cases & Money Machine Playbook — 110+ use cases for a fully local AI assistant on Apple Silicon ⭐ 0",
+    "url": "https://github.com/Jbapckfan/openclaw-playbook",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-jenilsoni-ai-openclaw-master-guide",
+    "title": "jenilsoni-ai/openclaw-master-guide",
+    "description": "The ultimate research guide, deployment manual, and real-world use cases for OpenClaw AI. ⭐ 3",
+    "url": "https://github.com/jenilsoni-ai/openclaw-master-guide",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-jiggai-clawrecipes",
+    "title": "JIGGAI/ClawRecipes",
+    "description": "Save 120+ Hours of Setup Pain (I did it for you) – Launch Your OpenClaw Agent Teams with 1 Command (15+ Recipes) ⭐ 84",
+    "url": "https://github.com/JIGGAI/ClawRecipes",
+    "source": "github-search",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-jrleon30-awesome-openclaw-usecases-zh",
+    "title": "jrleon30/awesome-openclaw-usecases-zh",
+    "description": "Showcase 39 validated OpenClaw AI use cases in Chinese to help users automate tasks and improve daily work and life efficiently. ⭐ 1",
+    "url": "https://github.com/jrleon30/awesome-openclaw-usecases-zh",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ki-de-comments-1rf6mrm-kisafetydirektorin-bei-meta-verl",
+    "title": "KI-Safety-Direktorin bei Meta verliert fast die Kontrolle durch OpenClaw über ihren eigenen E-Mail-Posteingang",
+    "description": "Summer Yue, Safety and Alignment Director bei Meta Superintelligence Labs, hat auf X beschrieben, wie ihr KI-Agent OpenClaw anfing, eigenständig E-Mails zu löschen, obwohl er nur Vorschläge machen sollte und nichts ohne Bestätigung tun durfte. Stopp-Befehle wurden ignoriert. Sie musste den Prozess m",
+    "url": "https://www.reddit.com/r/KI_de/comments/1rf6mrm/kisafetydirektorin_bei_meta_verliert_fast_die/",
+    "source": "reddit/KI_de",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 304
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1qtddwk-kimi-25-vs-glm-47-vs-minima",
+    "title": "Kimi 2.5 vs GLM 4.7 vs MiniMax M2.1 for complex debugging?",
+    "description": "I’m a freelancer working in coding, systems, and networking and I’m choosing an LLM to use with OpenClaw. Comparing: Kimi 2.5 GLM 4.7 MiniMax M2.1 (recommended from openclaw) Which one performs best for complex debugging and technical problem solving?",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qtddwk/kimi_25_vs_glm_47_vs_minimax_m21_for_complex/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 5
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1rla9c7-local-qwen-35-9b-extremely-",
+    "title": "Local Qwen 3.5 (9B) extremely slow on RTX 4060 Ti. Is this normal?",
+    "description": "I’m running a local Qwen 3.5 (9B) model on my PC (RTX 4060 Ti + Ryzen 5 5500 + 32GB RAM). When I try to chat with it, the responses are extremely slow or sometimes it feels like it doesn’t respond at all. I also enabled Brave Search API and some other tools, but it’s still very laggy. Is this norm",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rla9c7/local_qwen_35_9b_extremely_slow_on_rtx_4060_ti_is/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 7
+  },
+  {
+    "id": "https---www-reddit-com-r-clawdbot-comments-1rmnmsx-managing-openclaw-agents-acro",
+    "title": "Managing OpenClaw Agents Across Terminals, Logs, and Cron Jobs Was Chaos, So I Built ClawPort",
+    "description": "I kept running into the same problem with OpenClaw style agent setups. Once you have a few agents running, everything starts getting scattered across terminals, logs, cron jobs, memory files, and random chat windows. It works, but it starts to feel like you are managing infrastructure instead of ac",
+    "url": "https://www.reddit.com/r/clawdbot/comments/1rmnmsx/managing_openclaw_agents_across_terminals_logs/",
+    "source": "reddit/clawdbot",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 145
+  },
+  {
+    "id": "https---github-com-manish-raana-openclaw-mission-control",
+    "title": "manish-raana/openclaw-mission-control",
+    "description": "Mission Control is a simple, real-time web UI for monitoring agents and task workflows. Built with Convex and React, it provides a clean dashboard to track task state, agent activity, and live logs — all synchronized instantly without polling or message queues. ⭐ 241",
+    "url": "https://github.com/manish-raana/openclaw-mission-control",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-marcodotio-openclawkit",
+    "title": "MarcoDotIO/OpenClawKit",
+    "description": "A Swift package SDK for running local OpenClaw-style AI agent workflows inside native Swift applications. ⭐ 15",
+    "url": "https://github.com/MarcoDotIO/OpenClawKit",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-mark",
+    "title": "Market Research & Product Factory",
+    "description": "You want to build a product but don't know what to build. Or you have a business and need to understand what your customers are struggling with. This workflow uses the Last 30 Days skill to mine Reddit and X for real pain points, then has OpenClaw build solutions to those problems.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/market-research-product-factory.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-marktoflow-marktoflow",
+    "title": "marktoflow/marktoflow",
+    "description": "Automation frameworks shouldn't fight you. Marktoflow is CLI-native automation with the power of AI agents. Write workflows in markdown+YAML, execute with Claude Code,    GitHub Copilot, Codex, or OpenCode — no AI API keys required. 39 direct SDK integrations, visual designer UI, and full MCP compatibility. Simple to write, powerful to run. ⭐ 14",
+    "url": "https://github.com/marktoflow/marktoflow",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rgqwk6-meet-alfonso-a-deeply-written",
+    "title": "Meet Alfonso — a deeply written OpenClaw living on Discord &amp; WhatsApp. Free experiment, come say hi.",
+    "description": "Wanted to share something I've been building with OpenClaw that takes a different angle from the usual personal assistant setup. **Meet Alfonso Cucinelli** — a 52-year-old Colombian-British character living in East London. He's not an assistant. He's not a helper bot. He's a *character* — written l",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rgqwk6/meet_alfonso_a_deeply_written_openclaw_living_on/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 163
+  },
+  {
+    "id": "https---www-reddit-com-r-politics-comments-d8tn3d-megathread-speaker-pelosi-anno",
+    "title": "Megathread: Speaker Pelosi announces House to launch formal impeachment inquiry",
+    "description": "The announcement follows a late afternoon meeting of House Democrats in response to increasing support among the house democrat caucust for impeachment and amid reports that President Trump may have pressured a foreign leader to investigate the former Vice President and potential 2020 campaign rival",
+    "url": "https://www.reddit.com/r/politics/comments/d8tn3d/megathread_speaker_pelosi_announces_house_to/",
+    "source": "reddit/politics",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 58818
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r4ktu6-mimiclaw-i-ran-openclaw-on-a",
+    "title": "MimiClaw: I ran OpenClaw on a $5 chip without Linux or Node.js, got 1.7k stars in 4 days but I don’t know how to do next…",
+    "description": "Hey folks, I’ve been hacking on a small project called **MimiClaw**. It’s basically a tiny OpenClaw that runs on a **$5 ESP32-S3 microcontroller**: * no Linux * no Node.js * just C * WiFi enabled * keeps simple local memory * controlled via Telegram Even though it’s this small, it can still: *",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r4ktu6/mimiclaw_i_ran_openclaw_on_a_5_chip_without_linux/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 24
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-cont",
+    "title": "Multi-Agent Content Factory",
+    "description": "You're a content creator juggling research, writing, and design across multiple platforms. Each step — finding trending topics, writing scripts, generating thumbnails — eats hours of your day. What if a team of specialized agents handled all of it overnight?",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/content-factory.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-mult",
+    "title": "Multi-Source Tech News Digest",
+    "description": "Automatically aggregate, score, and deliver tech news from 109+ sources across RSS, Twitter/X, GitHub releases, and web search — all managed through natural language.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/multi-source-tech-news-digest.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-mverab-metaclaw",
+    "title": "mverab/metaclaw",
+    "description": "Founder-first meta-layer to generate production-ready OpenClaw multi-agent setups from one prompt: agents, skills, workflows, memory, and install docs. ⭐ 10",
+    "url": "https://github.com/mverab/metaclaw",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-mvster-p-kali-openclaw-usb",
+    "title": "mvster-p/kali-openclaw-usb",
+    "description": "Bootable Kali Linux USB with OpenClaw AI automation. Portable penetration testing rig with pre-configured workflows, auto-documentation, and drop-box node deployment. Boot anywhere, pentest everything, leave no trace. ⭐ 14",
+    "url": "https://github.com/mvster-p/kali-openclaw-usb",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r2lj0q-my-ai-crab-familiar-runs-a-ne",
+    "title": "My AI crab familiar runs a news empire from a single GPU and I'm not sure who's in charge anymore",
+    "description": "I let loose OpenClaw on my laptop. It was supposed to help with finances. Instead, it now runs a three-edition daily news podcast from a single RTX 3070. Here's what happened: **\"Let's build a news podcast.\"** Sure, I said. Now it produces Morning, Afternoon, and Evening editions. It scrapes 60+ R",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r2lj0q/my_ai_crab_familiar_runs_a_news_empire_from_a/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 98
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rdf5v7-my-guide-on-what-tools-to-us",
+    "title": "My guide on what tools to use to build AI agents in 2026 (if youre a newb)",
+    "description": "Everyone starts somewhere. If you are new to building with AI and you're drowning in \"TOP 10 AI AGENT FRAMEWORKS\" posts that all contradict each other (it is a mess). That is what I actually use day to day, and believe is not only the most simple for people just starting out, but also the most scala",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rdf5v7/my_guide_on_what_tools_to_use_to_build_ai_agents/",
+    "source": "reddit/AI_Agents",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 137
+  },
+  {
+    "id": "https---www-reddit-com-r-prorevenge-comments-bzmkmn-my-hag-of-a-stepmom-gave-awa",
+    "title": "My hag of a stepmom gave away my Playstation 4 while I was away in college. So I rent out \"her\" house while she was on her honeymoon with her newest husband.",
+    "description": "I have been reading lots of Reddit lately, especially entitled parents, but made a new account when I came across this page. I never thought I'd actually try to contribute something! Until now Reddit has just been my guilty morning coffee read. So here goes. I'm an only son. My mom died of ovaria",
+    "url": "https://www.reddit.com/r/ProRevenge/comments/bzmkmn/my_hag_of_a_stepmom_gave_away_my_playstation_4/",
+    "source": "reddit/ProRevenge",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 62329
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r8lci1-my-openclaw-is-useful-",
+    "title": "My OpenClaw is useful!",
+    "description": "I've been running OpenClaw and set up 4 autonomous agents. Each has its own workspace, [SOUL.md](http://SOUL.md), and cron schedule. Here's what works for me. My set-up * OpenClaw on 2017 MacBook Pro with Intel * MiniMax 2.5 for all agents (fast + cheap) * Thinking level set to \"high\"  My Agents",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r8lci1/my_openclaw_is_useful/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 161
+  },
+  {
+    "id": "https---www-reddit-com-r-nosleep-comments-diuucz-my-sugar-daddy-asks-me-for-weir",
+    "title": "My sugar daddy asks me for weird favors",
+    "description": "His Tinder profile said he was 45, but he looked to be in his early thirties at most.  *Looking for a sugar baby. $700 weekly. No sex.*  It sounded too good to be true, but, as a broke university student, I was willing to take my chances. I swiped right, and Tinder let me know it was a match. His",
+    "url": "https://www.reddit.com/r/nosleep/comments/diuucz/my_sugar_daddy_asks_me_for_weird_favors/",
+    "source": "reddit/nosleep",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 73172
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1qxg6po-my-week-with-openclaw-as-a-no",
+    "title": "My Week With OpenClaw as a non-IT person",
+    "description": "Everything has taken a LOT longer to set up than I thought, but after 4 days my agent (Ember) is working fine on all the following: 1. Has its own phone number, WhatsApp account, and iMessage functionality - I can message it and interact via these methods or website browser interchangeably. It can",
+    "url": "https://www.reddit.com/r/openclaw/comments/1qxg6po/my_week_with_openclaw_as_a_nonit_person/",
+    "source": "reddit/openclaw",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 92
+  },
+  {
+    "id": "https---www-reddit-com-r-n8n-comments-1ri8z89-n8nclaw-openclaw-in-n8n-",
+    "title": "n8n-claw: OpenClaw in n8n",
+    "description": "I have recreated OpenClaw in n8n. And I am making it available as a community project! Maybe it will turn into a real community project 🙏 n8n-claw contains the following:   • n8n &amp; Supabase   • the “OpenClaw” workflows (MCP Builder, Workflow Builder, etc.)   • Setup script that installs everyth",
+    "url": "https://www.reddit.com/r/n8n/comments/1ri8z89/n8nclaw_openclaw_in_n8n/",
+    "source": "reddit/n8n",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 142
+  },
+  {
+    "id": "https---github-com-next-open-ai-openclawx",
+    "title": "next-open-ai/openclawx",
+    "description": "a simple openclaw desktop u ⭐ 12",
+    "url": "https://github.com/next-open-ai/openclawx",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1rpgr8c-nvidia-is-planning-to-launc",
+    "title": "Nvidia Is Planning to Launch an Open-Source AI Agent Platform",
+    "description": "If you can't read the site, here's the text: # Nvidia Is Planning to Launch an Open-Source AI Agent Platform # Ahead of its annual developer conference, Nvidia is readying a new approach to software that embraces AI agents similar to OpenClaw. [Zoë Schiffer](safari-reader://www.wired.com/author/z",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rpgr8c/nvidia_is_planning_to_launch_an_opensource_ai/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 167
+  },
+  {
+    "id": "https---github-com-okjpg-openclaw-brunookamoto",
+    "title": "okjpg/openclaw-BrunoOkamoto",
+    "description": "Kit completo do curso 'Construa Seu AI COO' — PRDs, templates, prompts, use cases e mais. Por Bruno Okamoto. ⭐ 14",
+    "url": "https://github.com/okjpg/openclaw-BrunoOkamoto",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1qvok6l-open-claw-",
+    "title": "Open Claw!!",
+    "description": "Has anyone here used OpenClaw (formerly Clawdbot/Moltbot)  I heard  a lot and planning to run  to automate email, files, and daily tasks. Before I set it up, I want real user experiences not social media fluff or guesses. If you’ve actually used it, please share: • where you run it (local/VPS/Dock",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1qvok6l/open_claw/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 9
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r6xksq-openai-just-hired-the-opencl",
+    "title": "OpenAI just hired the OpenClaw creator",
+    "description": "So the guy who built OpenClaw, originally called Clawdbot because it was literally named after Anthropic's Claude, just got hired by OpenAI. Not Anthropic. OpenAI. You can't make this stuff up. For those out of the loop: OpenClaw is that open-source AI assistant that actually DOES things instead of",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r6xksq/openai_just_hired_the_openclaw_creator/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 108
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1qxo8lw-openclaw-forgot-to-run-a-pro",
+    "title": "OpenClaw \"forgot\" to run a protocol that we agreed it would",
+    "description": "I'm sure I'm not the only one that stuff like this is happening to, but I thought I'd share anyway. I've been toying around with OpenClaw for the last 48 hours or so. I put it in a sandbox environment, and really I've been spending all my tokens to test it's reliability/security (does it follow ins",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1qxo8lw/openclaw_forgot_to_run_a_protocol_that_we_agreed/",
+    "source": "reddit/AI_Agents",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 22
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rbjwpi-openclaw-github-codex-is-the-",
+    "title": "Openclaw + Github + Codex is the way",
+    "description": "Maybe everyone already knows this, but it was big for me. When making new dashboards, skills, etc on openclaw, the best way I've found is to: (1) Start the process on your openclaw bot with an initial step to get the ball rolling. (2) Then instruct your bot to upload the project to GitHub under a",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rbjwpi/openclaw_github_codex_is_the_way/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 100
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rgw2p7-openclaw-minimax-or-qwen-for",
+    "title": "OpenClaw + Minimax or Qwen for automating LinkedIn and Twitter — realistic or ban risk?",
+    "description": "Hi, I’m thinking about setting up AI agents on a VPS for two specific use cases: **1) Twitter/X** * Go through the accounts I follow * Detect relevant posts * Generate structured summaries (table, JSON, categorized recap, etc.) **2) LinkedIn** * Log into my own account * Browse freelance job po",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rgw2p7/openclaw_minimax_or_qwen_for_automating_linkedin/",
+    "source": "reddit/AI_Agents",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 10
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-n8n-",
+    "title": "OpenClaw + n8n Workflow Orchestration",
+    "description": "Letting your AI agent directly manage API keys and call external services is a recipe for security incidents. Every new integration means another credential in `.env.local`, another surface for the agent to accidentally leak or misuse.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/n8n-workflow-orchestration.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-clawdbot-comments-1qwx6ls-openclaw-101-a-detailed-guide",
+    "title": "OpenClaw 101 - a detailed guide for new users so you don't make my mistakes",
+    "description": "I've gone pretty deep down the OpenClaw rabbithole over the last week, and I consider myself to be relatively tech-savvy but not as proficient as a lot of others in here. However, I feel like I have worked out a few of the issues that OpenClaw has from some of the posts I am seeing here, so I thoug",
+    "url": "https://www.reddit.com/r/clawdbot/comments/1qwx6ls/openclaw_101_a_detailed_guide_for_new_users_so/",
+    "source": "reddit/clawdbot",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 754
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1riiglv-openclaw-102-updates-from-my-",
+    "title": "OpenClaw 102: Updates from my 101 on how to get the most from your OpenClaw bot",
+    "description": "I have been getting lots of DMs on how to set things up more efficiently in OpenClaw following my previous posts, so I think it's about time to go into a bit more depth about how I use OpenClaw, how to set things up. This is going to be a long one, so settle in for a text-wall while I flesh out some",
+    "url": "https://www.reddit.com/r/openclaw/comments/1riiglv/openclaw_102_updates_from_my_101_on_how_to_get/",
+    "source": "reddit/openclaw",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 212
+  },
+  {
+    "id": "https---www-reddit-com-r-clawdbot-comments-1riig7p-openclaw-102-updates-from-my-",
+    "title": "OpenClaw 102: Updates from my 101 on how to get the most from your OpenClaw bot",
+    "description": "I have been getting lots of DMs on how to set things up more efficiently in OpenClaw following my previous posts, so I think it's about time to go into a bit more depth about how I use OpenClaw, how to set things up. This is going to be a long one, so settle in for a text-wall while I flesh out some",
+    "url": "https://www.reddit.com/r/clawdbot/comments/1riig7p/openclaw_102_updates_from_my_101_on_how_to_get/",
+    "source": "reddit/clawdbot",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 159
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rji0x3-openclaw-202632-just-dropped-",
+    "title": "OpenClaw 2026.3.2 just dropped — here's what actually changed for real workflows",
+    "description": "New release landed about an hour ago. I went through the full changelog so you don't have to. Here's what actually matters for day-to-day use: **Secrets system is finally production-grade** SecretRef support now covers 64 credential targets - everything from Stripe to Slack to GitHub. The big chan",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rji0x3/openclaw_202632_just_dropped_heres_what_actually/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 157
+  },
+  {
+    "id": "https---www-reddit-com-r-openclawusecases-comments-1rhqvyk-openclaw-agent-automa",
+    "title": "OpenClaw agent automated TikTok marketing → $670/mo MRR, 1.2M views in a week. Here's the full workflow breakdown.",
+    "description": "This is a full breakdown of one of the most complete OpenClaw agent workflows I've come across. Not a \"look what I made\" post - I'm going to explain the architecture in enough detail that you can replicate or adapt it for your own use case. **What problem this solves** Mobile app developers need c",
+    "url": "https://www.reddit.com/r/OpenClawUseCases/comments/1rhqvyk/openclaw_agent_automated_tiktok_marketing_670mo/",
+    "source": "reddit/OpenClawUseCases",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 150
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-aion",
+    "title": "OpenClaw as Desktop Cowork (AionUi) — Remote Rescue & Multi-Agent Hub",
+    "description": "Use OpenClaw from a desktop Cowork UI, access it from Telegram or WebUI when you’re away, and fix it remotely when it won’t connect. AionUi is a free, open-source app that runs **OpenClaw as a first-class agent** alongside 12+ others (Claude Code, Codex, Qwen Code, etc.), with a built-in **OpenClaw ",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/aionui-cowork-desktop.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r4t9q8-openclaw-best-practices-what-",
+    "title": "OpenClaw Best Practices: What Actually Works After Running It Daily",
+    "description": "Been running OpenClaw daily for a few weeks. Between this sub, the Discord, and my own trial-and-error, here's what actually matters. **1. Don't Install Random ClawHub Skills** This is the big one. There are hundreds of malicious skills on ClawHub. Someone botted a backdoored skill to #1 most down",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r4t9q8/openclaw_best_practices_what_actually_works_after/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 375
+  },
+  {
+    "id": "https---www-reddit-com-r-selfhosted-comments-1qupw04-openclaw-formerly-known-as-",
+    "title": "OpenClaw formerly known as ClawdBot then Moltbot security issues.",
+    "description": "If you intend to play with OpenClaw, be very very careful. See these articles:  * https://www.theregister.com/2026/02/02/openclaw_security_issues/ * https://www.theregister.com/2026/02/03/openclaw_security_problems/",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1qupw04/openclaw_formerly_known_as_clawdbot_then_moltbot/",
+    "source": "reddit/selfhosted",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 161
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r5ch5g-openclaw-in-production-98-rea",
+    "title": "OpenClaw in Production: 98 Real Automations People Are Running",
+    "description": "People keep debating prompts like that’s the whole game. The shift is agents running coordination loops. Not “thinking” or “creativity”. Coordination. The stuff that quietly eats teams. On the dev side, the most real pattern is a coordinator that supervises multiple coding workers at once. Think 5",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r5ch5g/openclaw_in_production_98_real_automations_people/",
+    "source": "reddit/openclaw",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 173
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1qwu27d-openclaw-is-just-cron-jobs-a",
+    "title": "OpenClaw is just cron jobs and webhooks: Why architecture matters more than hype",
+    "description": "Builders, I have been seeing the posts about OpenClaw, Moltbot, or whatever name it is using now.  People are talking about how advanced it is, but after reviewing the code, I found it is not nearly as sophisticated as I expected. Honestly, the architecture I have built in SAFi is more advanced fo",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1qwu27d/openclaw_is_just_cron_jobs_and_webhooks_why/",
+    "source": "reddit/AI_Agents",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 44
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r7bp8e-openclaw-is-wildly-overrated",
+    "title": "OpenClaw is wildly overrated IMO",
+    "description": "Have had one running in a VPS for about a week now, must say I am extremely disappointed, especially considering the amount of tokens it has chewed through with basically nothing to show for it.    First issue is the persona I gave it - it constantly forgets how it is supposed to act/sound and need",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r7bp8e/openclaw_is_wildly_overrated_imo/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 157
+  },
+  {
+    "id": "https---www-reddit-com-r-clawdbot-comments-1r1mqqk-openclaw-isnt-just-for-coding",
+    "title": "OpenClaw isn't just for coding! here are the wildest use cases people are actually running right now",
+    "description": "Everyone talks about OpenClaw for dev workflows, but the non-coding use cases are honestly where things get insane. I've been tracking what people are building and some of this stuff feels straight out of sci-fi. # Home &amp; Hardware * **Ray-Ban Meta smart glasses integration** — OpenClaw sees wh",
+    "url": "https://www.reddit.com/r/clawdbot/comments/1r1mqqk/openclaw_isnt_just_for_coding_here_are_the/",
+    "source": "reddit/clawdbot",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 353
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rc3ejr-openclaw-personal-assistant-d",
+    "title": "OpenClaw Personal Assistant Device",
+    "description": "built my own personal assistent device that runs OpenClaw. I was curious what the smallest form factor could be that fits in my pocket so I wanted to use the Pi Zero W. Works via Push to Talk-&gt;Transcribe-&gt;Sends to OpenClaw and streams the response back.",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rc3ejr/openclaw_personal_assistant_device/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 1010
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r3u98p-openclaw-security-is-worse-t",
+    "title": "OpenClaw security is worse than I expected and I'm not sure what to do about it",
+    "description": "That architecture breakdown post from last week got me thinking about the security side of OpenClaw. The engineering choices are genuinely solid, but I kept wondering what happens when you give an agent that level of system access and then point it at the open internet. Started looking into it and",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r3u98p/openclaw_security_is_worse_than_i_expected_and_im/",
+    "source": "reddit/AI_Agents",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 23
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rpwrtb-openclaw-skills-actually-wort",
+    "title": "OpenClaw skills actually worth trying",
+    "description": "capability evolver — 35k installs, #1 on clawhub. your agent audits itself and gradually rewrites its own behavior over time. nothing else on clawhub is close in downloads, and it earns it. self-improving agent — 15k installs, 132 stars. picks up patterns from how you interact and quietly improves",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rpwrtb/openclaw_skills_actually_worth_trying/",
+    "source": "reddit/openclaw",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 130
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rkovee-openclaw-use-cases-to-extrac",
+    "title": "OpenClaw use cases to extract as much value as possible",
+    "description": "Been seeing a lot of \"cool tech demo but what's the actual use case\" takes about openclaw   so here's what i've been running for the past month that actually ships value: Email automation: * agent triages my inbox overnight. woke up today to 47 emails already categorized, 12 spam filtered, 8 draft",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rkovee/openclaw_use_cases_to_extract_as_much_value_as/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 10
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rg6j3t-openclaw-vs-claude-cowork-vs",
+    "title": "Openclaw vs. Claude Cowork vs. n8n",
+    "description": "I was starting to learn n8n to automate some workflows (for me and clients), including some AI steps, but not sure if it's still worth it. It seems like the future is Openclaw, Claude Cowork and similar tools (very flexible no-code agents with option for scheduled/recurring tasks). I have very lim",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rg6j3t/openclaw_vs_claude_cowork_vs_n8n/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 81
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1r6qd8z-openclaw-with-qwen3-coder-n",
+    "title": "OpenClaw with Qwen3 Coder Next on Mac",
+    "description": "Hi all, In case anyone is curious about what model to use with OpenClaw, I wanted to share a quick report about my experience with OpenClaw and Qwen3 Coder Next. I’m running Qwen3 Coder Next locally on my Mac, and it’s been handling OpenClaw’s tool calling / request routing really well. I haven’t",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r6qd8z/openclaw_with_qwen3_coder_next_on_mac/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 7
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r0gk4r-openclaw-wrappers-",
+    "title": "OpenClaw Wrappers!!",
+    "description": "OpenClaw is free, but there’s a real mini-market of “wrappers” that sell setup + hosting as a subscription. Recently, I’ve been seeing a bunch of OpenClaw wrapper SaaS, and it’s clear there’s demand. It’s only a 10–15 minute setup, yet people still package it and others pay monthly for it.    A qu",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r0gk4r/openclaw_wrappers/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 99
+  },
+  {
+    "id": "https---github-com-openclaw-community-openclaw-hub-examples",
+    "title": "openclaw-community/openclaw-hub-examples",
+    "description": "Example configurations, use cases ⭐ 0",
+    "url": "https://github.com/openclaw-community/openclaw-hub-examples",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r09rbb-openclaw-whats-the-use-case-",
+    "title": "Openclaw... whats the use case?",
+    "description": "I've been hearing ppl talk about openclaw I've set it up, and have connnected w/ telelgram/whatsapp yes i can send messages to it, but what else can i do w/ it? I'm running it on a linux vps (for security reasons) so i dont have a bunch of my mac things hooked up to it. For some reason, i just c",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r09rbb/openclaw_whats_the_use_case/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 8
+  },
+  {
+    "id": "https---github-com-openclaw-lobster",
+    "title": "openclaw/lobster",
+    "description": "Lobster is a Openclaw-native workflow shell: a typed, local-first “macro engine” that turns skills/tools into composable pipelines and safe automations—and lets Openclaw call those workflows in one step. ⭐ 800",
+    "url": "https://github.com/openclaw/lobster",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-openclix-openclix",
+    "title": "openclix/openclix",
+    "description": "Open-source, local-first mobile app retention and engagement automation with agent-driven workflows. ⭐ 27",
+    "url": "https://github.com/openclix/openclix",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1raj9w0-openrouter-clawclouddev-for-t",
+    "title": "OpenRouter + ClawCloud.dev -- for the easiest BYOK VPS setup",
+    "description": "been messing around with different ways to self-host openclaw and honestly this combo has been the smoothest by far. basically: grab a free vps on clawcloud.dev, add your own api keys, done. like 60 secs start to finish if you don't get distracted. the clawcloud part is what makes this a no-braine",
+    "url": "https://www.reddit.com/r/openclaw/comments/1raj9w0/openrouter_clawclouddev_for_the_easiest_byok_vps/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 135
+  },
+  {
+    "id": "https---github-com-opiumjarvis-openclaw-case-studies",
+    "title": "opiumjarvis/openclaw-case-studies",
+    "description": "Real-world automation case studies using OpenClaw agents ⭐ 0",
+    "url": "https://github.com/opiumjarvis/openclaw-case-studies",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rpwg68-our-ai-agent-answers-40-ques",
+    "title": "Our AI Agent answers 40 questions a day in Slack and costs us about a dollar. Here's the setup:-&gt;",
+    "description": "People keep asking what AI agents actually look like in production for a small team. Here's ours. **The basics**: 14-person company (eng + product + ops). One AI agent running in Slack across 4 channels. Connected to Notion (wiki + docs), Linear (project management), and GitHub (code + PRs). **Dai",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rpwg68/our_ai_agent_answers_40_questions_a_day_in_slack/",
+    "source": "reddit/AI_Agents",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 72
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r0lc78-part-2-the-jarvis-protocol-ho",
+    "title": "Part 2: The \"Jarvis\" Protocol. How to build the Orchestrator (so you don't have to manage 14 agents manually).",
+    "description": "In [Part 1](https://www.reddit.com/r/openclaw/comments/1qzs5yu/how_i_run_a_14agent_marketing_team_on_a_5_vps_the/?utm_source=share&amp;utm_medium=web3x&amp;utm_name=web3xcss&amp;utm_term=1&amp;utm_content=share_button), I showed you the \"the example \"—running a squad of 14 agents to manage a $200k A",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r0lc78/part_2_the_jarvis_protocol_how_to_build_the/",
+    "source": "reddit/openclaw",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 120
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r1zk45-patterns-ive-learned-running-",
+    "title": "Patterns I've learned running OpenClaw 24/7 for 2 weeks",
+    "description": "Been running OpenClaw daily since early January. Wanted to share some patterns that actually worked (and some that didn't). Not a tutorial, just real observations. **1. Heartbeat vs Cron — use both, differently** Started with everything in HEARTBEAT.md. Bad idea — token burn was insane. Now I u",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r1zk45/patterns_ive_learned_running_openclaw_247_for_2/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 145
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-pers",
+    "title": "Personal CRM with Automatic Contact Discovery",
+    "description": "Keeping track of who you've met, when, and what you discussed is impossible to do manually. Important follow-ups slip through the cracks, and you forget context before important meetings.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/personal-crm.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-know",
+    "title": "Personal Knowledge Base (RAG)",
+    "description": "You read articles, tweets, and watch videos all day but can never find that one thing you saw last week. Bookmarks pile up and become useless.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/knowledge-base-rag.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-phon",
+    "title": "Phone Call Notifications",
+    "description": "Your agent already monitors things for you — stocks, emails, smart home, calendars — but notifications are easy to ignore. Push notifications pile up. Chat messages get buried. For the stuff that actually matters, you need something you can't swipe away.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/phone-call-notifications.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-podc",
+    "title": "Podcast Production Pipeline",
+    "description": "You have a podcast idea, maybe even a backlog of episode topics. But between researching guests, writing outlines, drafting intros, generating show notes, and writing social media posts for promotion — the production overhead kills your momentum. What if you handed off a topic and got back a full pr",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/podcast-production-pipeline.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-poly",
+    "title": "Polymarket Autopilot: Automated Paper Trading",
+    "description": "Manually monitoring prediction markets for arbitrage opportunities and executing trades is time-consuming and requires constant attention. You want to test and refine trading strategies without risking real capital.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/polymarket-autopilot.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-pre-",
+    "title": "Pre-Build Idea Validator",
+    "description": "Before OpenClaw starts building anything new, it automatically checks whether the idea already exists across GitHub, Hacker News, npm, PyPI, and Product Hunt — and adjusts its approach based on what it finds.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/pre-build-idea-validator.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-proj",
+    "title": "Project State Management System: Event-Driven Alternative to Kanban",
+    "description": "Traditional Kanban boards are static and require manual updates. You forget to move cards, lose context between sessions, and can't track the \"why\" behind state changes. Projects drift without clear visibility.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/project-state-management.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r1cf1j-psa-gmail-will-nuke-your-ope",
+    "title": "PSA: Gmail will nuke your Openclaw agent without warning. Here's what happened.",
+    "description": "spent my entire saturday setting up openclaw. read the docs. watched tutorials. got it running locally. felt pretty good about it. then comes the email integration. needed it so my agent could sign up for services and get verification codes. went with gmail. found a guide on oauth setup. created g",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r1cf1j/psa_gmail_will_nuke_your_openclaw_agent_without/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 34
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1rhvi09-psa-if-your-local-coding-ag",
+    "title": "PSA: If your local coding agent feels \"dumb\" at 30k+ context, check your KV cache quantization first.",
+    "description": "I’ve been seeing a lot of posts lately about models like Qwen3-Coder or GLM 4.7 getting trapped in infinite correction loops or hallucinating tool-call parameters once the context gets deep. The usual advice is to switch to a higher precision GGUF or tweak the system prompt. But after a few days of",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rhvi09/psa_if_your_local_coding_agent_feels_dumb_at_30k/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 234
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r5mgmu-psa-turn-on-memory-search-wit",
+    "title": "PSA: Turn on memory search with embeddings in OpenClaw — it'll save you money",
+    "description": "If you're running OpenClaw with growing memory files, you should enable memory search with embeddings. Here's why: The problem: Without it, every session loads your entire MEMORY.md + daily logs into context. As your memory grows, that's 5K-10K+ tokens per session just for memory. Here's the kicke",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r5mgmu/psa_turn_on_memory_search_with_embeddings_in/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 96
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1rkjxmk-qwen35-35b-mlx-lm-studio-op",
+    "title": "qwen3.5 35B mlx + lm studio + openclaw",
+    "description": "Just started to test openclaw using qwen3.5-35BA3B (4bit mlx). At first the model didn't work at all. After some research I found this promt template in huggingface: [https://huggingface.co/lmstudio-community/Qwen3.5-35B-A3B-GGUF/discussions/1](https://huggingface.co/lmstudio-community/Qwen3.5-35B-",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rkjxmk/qwen35_35b_mlx_lm_studio_openclaw/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 5
+  },
+  {
+    "id": "https---github-com-raulvidis-openclaw-multi-agent-kit",
+    "title": "raulvidis/openclaw-multi-agent-kit",
+    "description": "Production-tested templates for deploying multi-agent AI teams on OpenClaw with Telegram supergroup integration. 10 agent personalities, shared context workflows, bot-to-bot communication, and step-by-step AI-readable setup instructions. Built from a live 10-agent setup. ⭐ 190",
+    "url": "https://github.com/raulvidis/openclaw-multi-agent-kit",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-rodion-m-openclaw-use-cases",
+    "title": "rodion-m/openclaw-use-cases",
+    "description": "OpenClaw use cases organized by category and role - discover what's possible with your personal AI assistant ⭐ 5",
+    "url": "https://github.com/rodion-m/openclaw-use-cases",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-ronakkadhi-awesome-openclaw-usecases",
+    "title": "Ronakkadhi/awesome-openclaw-usecases",
+    "description": "A curated list of Openclaw use cases for business, dev, and life ⭐ 11",
+    "url": "https://github.com/Ronakkadhi/awesome-openclaw-usecases",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-salmaanakhtar-awesome-openclaw-usecases",
+    "title": "salmaanakhtar/awesome-openclaw-usecases",
+    "description": "A community collection of OpenClaw use cases for making life easier. ⭐ 0",
+    "url": "https://github.com/salmaanakhtar/awesome-openclaw-usecases",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-bestofredditorupdates-comments-t3ihkg-sat-down-on-my-fr",
+    "title": "Sat down on my friend's MacBook and broke it, offered to pay her the money for it but now she wants more because \"she was upgrading anyway\" so it's this or she will sue me in small claims court.",
+    "description": "#**Reminder : I am not the OP.** [Original](https://www.reddit.com/r/legaladvice/comments/641joo/sat_down_on_my_friends_macbook_and_broke_it/) by u/macbookcouch I had some of my friends over at my house and one of my friends invited one of her other friends to come over. She had her MacBook on my",
+    "url": "https://www.reddit.com/r/BestofRedditorUpdates/comments/t3ihkg/sat_down_on_my_friends_macbook_and_broke_it/",
+    "source": "reddit/BestofRedditorUpdates",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 100738
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-seco",
+    "title": "Second Brain",
+    "description": "You come up with ideas, find interesting links, hear about books to read — but you never have a good system for capturing them. Notion gets complex, Apple Notes becomes a graveyard of 10,000 unread entries. You need something as simple as texting a friend.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/second-brain.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-self",
+    "title": "Self-Healing Home Server & Infrastructure Management",
+    "description": "Running a home server means being on-call 24/7 for your own infrastructure. Services go down at 3 AM, certificates expire silently, disk fills up, and pods crash-loop — all while you're asleep or away.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/self-healing-home-server.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1rgiw5c-seline-is-back-your-os-goto",
+    "title": "Seline is back: your OS go-to agent framework w/ gui. (0.2.5: added multi agents, git worktree support, dev mode, paralell runs, discord, claude agent sdk, plugins, skills, hooks. fixed: a lot, 338 commits was added in 3 days yesterday when I checked, also I use seline mostly to develop it now...",
+    "description": "Hello folks, It's been quite sometime since my last post... I would like to share what I have been up to with my own standalone agent application. In video you will see: 1. Onboarding : 00:00 - 00.18 2. Starting a feature request task and prompt enhancement pipeline 00:25 - 1:08 3. Starting a par",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rgiw5c/seline_is_back_your_os_goto_agent_framework_w_gui/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 3
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1qsf08q-seline-v017-mcp-support-tas",
+    "title": "Seline v0.1.7 — MCP support, task scheduling, ComfyUI integration &amp; multiple AI providers",
+    "description": "Hey r/LocalLLaMA! 2 weeks since my last post! I have been working! I've just released v0.1.7 of **Seline**, an open-source AI agent platform that lets you run local and remote models with tool use, MCP servers, scheduled tasks, and image generation, all from a single desktop app. Seline can now als",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qsf08q/seline_v017_mcp_support_task_scheduling_comfyui/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 7
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-sema",
+    "title": "Semantic Memory Search",
+    "description": "OpenClaw's built-in memory system stores everything as markdown files — but as memories grow over weeks and months, finding that one decision from last Tuesday becomes impossible. There is no search, just scrolling through files.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/semantic-memory-search.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-clawdbot-comments-1rlhgm8-serious-question-why-use-open",
+    "title": "Serious question: why use OpenClaw if Claude Code already does everything?",
+    "description": "I’ve been testing Claude Code for a while and it handles long tasks surprisingly well. It can edit files, run commands, iterate on errors, and complete multi-step workflows inside a repo. So I’m trying to understand the real advantage of OpenClaw with concrete killer usecases. Is it mainly about:",
+    "url": "https://www.reddit.com/r/clawdbot/comments/1rlhgm8/serious_question_why_use_openclaw_if_claude_code/",
+    "source": "reddit/clawdbot",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 148
+  },
+  {
+    "id": "https---github-com-shelpuk-ai-technology-consulting-agent-skill-tdd",
+    "title": "Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
+    "description": "TDD + requirements workflow skill for AI coding agents (Claude Code, Codex, Antigravity, Cursor, Windsurf, etc.). Part of the Shelpuk agentic suite alongside Serena, Kindly Web Search, and Lad. ⭐ 17",
+    "url": "https://github.com/Shelpuk-AI-Technology-Consulting/agent-skill-tdd",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-sivakumar1016-openclaw-use-cases",
+    "title": "Sivakumar1016/OpenClaw-Use-Cases",
+    "description": "A community collection of OpenClaw use cases for making life easier. ⭐ 1",
+    "url": "https://github.com/Sivakumar1016/OpenClaw-Use-Cases",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rlet0h-someone-tried-to-social-engin",
+    "title": "Someone tried to social engineer me via linkedin. my openclaw agent saved me!",
+    "description": "A random guy messaged me on linkedin wanting me to help out with his project - looking for a senior engineer to continue offering really good comp! before engaging further - i checked his linkedin profile - seemed legit with comments &amp; posts going back several years. he then shared a github re",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rlet0h/someone_tried_to_social_engineer_me_via_linkedin/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 101
+  },
+  {
+    "id": "https---github-com-stephandia2-tuto-openclaw-site",
+    "title": "stephandia2/tuto-openclaw-site",
+    "description": "Tutoriel OpenClaw Complet - 10 sections + 4 use cases ⭐ 0",
+    "url": "https://github.com/stephandia2/tuto-openclaw-site",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rkxr9g-stop-using-openclaw-outoftheb",
+    "title": "Stop using OpenClaw out-of-the-box (You are burning your API tokens). Here are 3 local tools to fix its memory, web browsing, and email.",
+    "description": "So you install OpenClaw. You plug in your API keys. You sit back thinking, *alright, let’s go.* And then… a few hours later… you start noticing things. The memory feels off. Like it remembers something, but only if you say it exactly the same way. Browsing? It just devours your context window. One",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rkxr9g/stop_using_openclaw_outofthebox_you_are_burning/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 322
+  },
+  {
+    "id": "https---github-com-supersush-openclaw-use-case",
+    "title": "supersush/openclaw-use-case",
+    "description": "openclaw使用探索 ⭐ 0",
+    "url": "https://github.com/supersush/openclaw-use-case",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-swarmclawai-swarmclaw",
+    "title": "swarmclawai/swarmclaw",
+    "description": " Self-hosted AI agent orchestration dashboard with OpenClaw integration, multi-provider support, LangGraph workflows, and chat platform connectors. ⭐ 98",
+    "url": "https://github.com/swarmclawai/swarmclaw",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-technickai-openclaw-config",
+    "title": "TechNickAI/openclaw-config",
+    "description": "Give your AI assistant memory, skills, and autonomy. Persistent memory, 11 integration skills, and 4 autonomous workflows — all in markdown and Python scripts. Built for Claude Code. ⭐ 33",
+    "url": "https://github.com/TechNickAI/openclaw-config",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1r963s3-template-issue-with-unsloth",
+    "title": "Template issue with unsloth/Qwen3.5 via llama.cpp",
+    "description": "Any attempt to use tools throws this error \\`\\`\\` While executing FilterExpression at line 55, column 63 in source:   ...- for args\\_name, args\\_value in arguments|items %}↵ {{- '&lt;...   \\^   Error: Unknown (built-in) filter 'items' for type String \\`\\`\\`    I've been manually changing the tem",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1r963s3/template_issue_with_unslothqwen35_via_llamacpp/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 7
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rnf1ch-tested-6-opensource-tools-tha",
+    "title": "Tested 6 open-source tools that actually fix OpenClaw's biggest problems, here's what worked",
+    "description": "Been running OpenClaw for a while now and ran into the same issues everyone else has: security gaps (Cisco flagged them pretty hard), costs spiraling, and the setup getting more complex as we added integrations. Spent weeks testing different community tools and wanted to share what actually made a d",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rnf1ch/tested_6_opensource_tools_that_actually_fix/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 108
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rloiuj-the-best-openclaw-setups-ive-",
+    "title": "The best OpenClaw setups I've seen all have one thing in common: they do less",
+    "description": "I've been helping people fix their OpenCLAW configs for a few weeks now. DMs, Reddit threads, Discord. I've probably seen 40-50 different setups at this point. The people who are still using OpenClaw daily after a month run 1 agent, 3-5 skills, sonnet, and use it for stuff that sounds incredibly bo",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rloiuj/the_best_openclaw_setups_ive_seen_all_have_one/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 99
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rcabe2-the-maintenance-tax-is-slowl",
+    "title": "The maintenance tax is slowly killing my excitement for AI agents",
+    "description": "I actually like OpenClaw a lot conceptually. The idea of a persistent agent that can run tools, remember context, and actually do things instead of just chatting is honestly one of the most interesting directions AI is going right now. But I almost gave up three different times before I ever used",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rcabe2/the_maintenance_tax_is_slowly_killing_my/",
+    "source": "reddit/AI_Agents",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 31
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rlptnf-the-openclaw-ecosystem-is-big",
+    "title": "The OpenClaw ecosystem is bigger than you think — 14 plugins &amp; skills ranked",
+    "description": "been running openclaw for a few months. here's what survived the cut. **plugins** composio — managed oauth for 860+ apps, no api keys in your env. handles auth for gmail, slack, github, notion and most things you'd actually want. voice call — lets your agent call you. outbound notifications, mult",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rlptnf/the_openclaw_ecosystem_is_bigger_than_you_think/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 198
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1qzyibu-the-original-openclaw-101-a-d",
+    "title": "The original OpenClaw 101 - a detailed guide for new users so you don't make my mistakes",
+    "description": "Given that someone else took my last post from r/Clawdbot and posted an AI slop summary here, I thought you all might be interested in the proper and more detailed post. I've gone pretty deep down the OpenClaw rabbithole over the last week, and I consider myself to be relatively tech-savvy but not",
+    "url": "https://www.reddit.com/r/openclaw/comments/1qzyibu/the_original_openclaw_101_a_detailed_guide_for/",
+    "source": "reddit/openclaw",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 289
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r8jtml-the-safest-place-for-agents-",
+    "title": "The safest place for agents to find skills and Api VERIFIED and VETTED",
+    "description": "I hope this keeps people safe! OpenClaw is a fully autonomous AI agent you can talk to from your phone. One of the most exciting tools in AI right now. But the skill ecosystem has problems. Some skills have real security concerns. There are dozens doing the same thing, so you never know which one",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r8jtml/the_safest_place_for_agents_to_find_skills_and/",
+    "source": "reddit/AI_Agents",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 8
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rkv83c-the-starter-config-i-give-eve",
+    "title": "the starter config I give everyone who's about to quit openclaw",
+    "description": "My dropout post blew up yesterday and my DMs are now full of people sending me their configs asking what's wrong. 90% of them have the same problems. so here's the config I've been copy pasting to everyone. This isn't fancy. this isn't a 12 agent orchestration system. this is the boring config that",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rkv83c/the_starter_config_i_give_everyone_whos_about_to/",
+    "source": "reddit/openclaw",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 166
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rjtp3q-the-truth-about-mcp-vs-cli-",
+    "title": "The Truth About MCP vs CLI",
+    "description": "\"MCP was a mistake. Bash is better.\"      That quote from the developer behind OpenClaw kicked off the biggest AI tooling debate of 2026.      Connect a GitHub MCP server → 93 tools dumped into your context window → 55,000 tokens gone. Before you've even asked a question.       Stack GitHub + Jira +",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rjtp3q/the_truth_about_mcp_vs_cli/",
+    "source": "reddit/AI_Agents",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 78
+  },
+  {
+    "id": "https---www-reddit-com-r-thinkingdeeplyai-comments-1qsoq4h-the-ultimate-guide-to",
+    "title": "The Ultimate Guide to OpenClaw (Formerly Clawdbot -&gt; Moltbot)  From setup and mind-blowing use cases to managing critical security risks you cannot ignore.  This is the Rise of the 24/7 Proactive AI Agent Employees",
+    "description": "**TL;DR** CHECK OUT THIS SHORT PRESENTATION!    • **What it is:** OpenClaw (formerly Clawdbot/Moltbot) is a free, open-source, self-hosted 24/7 AI assistant that runs on your own hardware (PC, Mac Mini, or VPS). It's not just a chatbot; it has full computer access to take real action, write code,",
+    "url": "https://www.reddit.com/r/ThinkingDeeplyAI/comments/1qsoq4h/the_ultimate_guide_to_openclaw_formerly_clawdbot/",
+    "source": "reddit/ThinkingDeeplyAI",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 128
+  },
+  {
+    "id": "https---www-reddit-com-r-selfhosted-comments-1rfrtg7-the-whole-point-of-selfhost",
+    "title": "The whole point of self-hosting your AI is to control your data. Kind of defeats the purpose if the container has 2,000 known vulnerabilities",
+    "description": "So this has been bugging me for a while and I don’t see enough people talking about it. I set up OpenClaw to keep my AI convos local, hooked into WhatsApp, Telegram. Then I scanned the container. The official GHCR image has 2k+ CVEs with 10 critical ones. Think about what OpenClaw has access to: m",
+    "url": "https://www.reddit.com/r/selfhosted/comments/1rfrtg7/the_whole_point_of_selfhosting_your_ai_is_to/",
+    "source": "reddit/selfhosted",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 475
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1rf3jlx-there-are-potential-trojans",
+    "title": "there are potential trojans found skill md files in public repos for claude code",
+    "description": "[https://github.com/ruvnet/claude-flow](https://github.com/ruvnet/claude-flow) this is the repo with the trojan. Trojan:JS/CrypoStealz.AE!MTB There is an open issue related to the trojan and there were several windows terminals created and opening the moment an ai based ide opened the folder and f",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rf3jlx/there_are_potential_trojans_found_skill_md_files/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 20
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r71you-things-i-wish-someone-told-me",
+    "title": "Things I wish someone told me before I almost gave up on OpenClaw",
+    "description": "I've been in the same boat as a lot of people here spending the first two weeks babysitting, burning tokens, and watching my agent loop on the same answer eight times in a row.      After a lot of trial and error I've got it running reliably and actually doing useful work. Here's what made the diffe",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r71you/things_i_wish_someone_told_me_before_i_almost/",
+    "source": "reddit/openclaw",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 603
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r1576u-this-morning-my-claw-amazed-w",
+    "title": "This morning my claw amazed with an idea it created and implemented",
+    "description": "Today, my bot built some software from an idea came up with entirely on it's own. A couple days ago it came up with the idea, then each night it thought about the project. This morning it told me it was ready to build it. When I gave it the ok it did all the work. Context: \\- My first project was",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r1576u/this_morning_my_claw_amazed_with_an_idea_it/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 110
+  },
+  {
+    "id": "https---www-reddit-com-r-apolloapp-comments-14nb5qs-today-is-apollo-for-reddits-",
+    "title": "Today is Apollo for Reddit's last day, and I just released its last update. 🥹 I just wanted to say a big thank you to the folks who have used and supported Apollo over the years, it's been the dream of a lifetime to build this app over the last 9 years. ❤️ Read the eulogy inside! ❤️",
+    "description": "Hey all, With that, Apollo's last update has landed! It includes: -\tSome fun easter eggs!  -\tTidies some things up for the closure later today -\tAdds more wallpapers to the “Goodbye Apollo” wallpaper set -\tAdds the option to export your Pixel Pals to the separate Pixel Pals app, and gives you a fu",
+    "url": "https://www.reddit.com/r/apolloapp/comments/14nb5qs/today_is_apollo_for_reddits_last_day_and_i_just/",
+    "source": "reddit/apolloapp",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 81593
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-todo",
+    "title": "Todoist Task Manager: Agent Task Visibility",
+    "description": "Maximize transparency for long-running agentic workflows by syncing internal reasoning and progress logs directly to Todoist.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/todoist-task-manager.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-pettyrevenge-comments-101k2vz-total-wine-would-not-sell",
+    "title": "Total wine would not sell me the specific wine I drove 60 miles to that location for because they claim I was with someone else who left and they need to see iD for that person. I was alone. So I made a mobile order of 10k and never picked it up",
+    "description": "*edit* receipt upload https://imgur.com/a/JJgrhuA (Update thanks to whoever reviewed the actual location also it’s amazing the amount of people with similar experiences at total wine)  I got mad all over again writing this because of the sheer amount of disrespect from total wine management. I have",
+    "url": "https://www.reddit.com/r/pettyrevenge/comments/101k2vz/total_wine_would_not_sell_me_the_specific_wine_i/",
+    "source": "reddit/pettyrevenge",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 57735
+  },
+  {
+    "id": "https---github-com-tsingyuai-scientify",
+    "title": "tsingyuai/scientify",
+    "description": "AI-powered research workflow automation for OpenClaw. ⭐ 53",
+    "url": "https://github.com/tsingyuai/scientify",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rf0vz6-two-weeks-later-with-openclaw",
+    "title": "Two weeks later with OpenClaw and this is what I’ve learned",
+    "description": "OpenClaw is a self-hosted AI agent that lives in your messaging apps, remembers everything forever, and can literally code new features for itself. It went viral on GitHub for a reason—here's how to use it without wasting weeks on beginner mistakes. What It Actually Is (The Architecture) Stop trea",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rf0vz6/two_weeks_later_with_openclaw_and_this_is_what/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 478
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r9i5j4-two-weeks-with-openclaw-from-",
+    "title": "two weeks with openclaw: from the perspective of a solo founder",
+    "description": "the past two weeks i used openclaw in my b2b saas business. i run the business solo and am currently at $2k MRR with 97% profit margins. As you can imagine i have a massive backlog of things to work on. So the premise of automating certain things was tempting. Besides doing marketing and building",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r9i5j4/two_weeks_with_openclaw_from_the_perspective_of_a/",
+    "source": "reddit/openclaw",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 125
+  },
+  {
+    "id": "https---www-reddit-com-r-relationship-advice-comments-hmzvgt-update-my-32f-husba",
+    "title": "Update: My (32F) husband (36M) became a robot and I don’t know how to help him.",
+    "description": "[original:](https://www.reddit.com/r/relationship_advice/comments/hlgv6r/my_32f_husband_36m_became_a_robot_and_i_dont_know/?utm_source=share&amp;utm_medium=ios_app&amp;utm_name=iossmf) Hey everybody, here’s the update. I wrote this a couple days ago but couldn’t post it because it was too soon.  M",
+    "url": "https://www.reddit.com/r/relationship_advice/comments/hmzvgt/update_my_32f_husband_36m_became_a_robot_and_i/",
+    "source": "reddit/relationship_advice",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 116752
+  },
+  {
+    "id": "https---github-com-velrixsemiwl-max-awesome-openclaw-usecases",
+    "title": "velrixsemiwl-max/awesome-openclaw-usecases",
+    "description": "🤖 Explore real-life OpenClaw use cases that show practical ways to improve daily tasks with community-driven skills and plugins. ⭐ 0",
+    "url": "https://github.com/velrixsemiwl-max/awesome-openclaw-usecases",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-victorpham1984-mateclaw-usecases",
+    "title": "Victorpham1984/mateclaw-usecases",
+    "description": "MateClaw.ai - Tổng hợp use cases & prompts cho OpenClaw từ cộng đồng ⭐ 0",
+    "url": "https://github.com/Victorpham1984/mateclaw-usecases",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---github-com-vincentkoc-dotskills",
+    "title": "vincentkoc/dotskills",
+    "description": "🐙 A curated set of Codex and OpenClaw skills for workflow automation, technical debugging, and agent-assisted development patterns. ⭐ 17",
+    "url": "https://github.com/vincentkoc/dotskills",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r5t6e9-watching-claude-code-train-my",
+    "title": "Watching Claude Code train my agent has been awesome",
+    "description": "I was exhausted by training OpenClaw, especially on browser automation. So I set up a self-healing feedback loop between Claude Code and Openclaw. I explain to Claude Code the business objectives and the high-level steps of what I want OpenClaw to do. Claude Code writes the initial skill, primitives",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r5t6e9/watching_claude_code_train_my_agent_has_been/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 132
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rb84h4-ways-openclaw-has-changed-my-",
+    "title": "Ways OpenClaw has Changed My Life",
+    "description": "I’m by no means an expert, but here’s what I’ve built over the past few weeks using OpenClaw: **Email management.** Connected to my 365 account. Deletes, moves, archives, auto-drafts replies. Flags anything urgent and sends me a brief 3x daily. **Video workflow.** This one’s my favorite. I batch s",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rb84h4/ways_openclaw_has_changed_my_life/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 554
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rgznz8-we-finally-built-the-first-un",
+    "title": "We finally built the first Uncensored Agent using Gork/Heretic",
+    "description": "First off huge shoutout to Peter Steinberger (Openclaw, founder), Greg Yang (Xai, Co Founder), and Igor Babuschkin (Tensor, father) for their contributions on the agent architecture, mathematical optimizations, and prompt engineering framework that made this whole thing possible. Couldn't have done",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rgznz8/we_finally_built_the_first_uncensored_agent_using/",
+    "source": "reddit/openclaw",
+    "category": "Multi-Agent Systems",
+    "date_added": "2026-03-11",
+    "score": 161
+  },
+  {
+    "id": "https---github-com-webvijayi-awesome-clawdbot-usecases",
+    "title": "webvijayi/awesome-clawdbot-usecases",
+    "description": "Practical Clawdbot/OpenClaw use cases that actually make money or save time ⭐ 4",
+    "url": "https://github.com/webvijayi/awesome-clawdbot-usecases",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1rduh8r-what-am-i-missing-with-openc",
+    "title": "What am I missing with Openclaw?",
+    "description": "I set this up using a vps and so far my openclaw experience has been lackluster.   I was expecting it to go off and build stuff for me, instead it's acting like chatgpt and giving me really basic plans.   I'm assuming I need to give it a better \"brain\" but right now I'm not impressed.  It's like hav",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1rduh8r/what_am_i_missing_with_openclaw/",
+    "source": "reddit/AI_Agents",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 18
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rnyvx3-what-are-you-guys-actually-us",
+    "title": "What are you guys actually using OpenClaw for?",
+    "description": "Been seeing it pop up a lot lately and I'm genuinely curious what the actual use cases are. Not the marketing stuff  like what are you personally using it for day to day? Is it mostly dev stuff or are there other interesting things people are doing with it? Curious to know",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rnyvx3/what_are_you_guys_actually_using_openclaw_for/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 139
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1rewrct-where-openclaw-breaks-a-field",
+    "title": "Where OpenClaw Breaks: A Field Guide From Running It Daily (42 real incidents in 28 days)",
+    "description": "Every entry is real. Every lesson cost time, money, or trust. First of all, I think Openclaw is amazing. I mean it. I tinker with it every day. And now it actually works pretty decent. For me at least. It's a project, not a product. It'll teach you the inner workings of a real agentic AI system. A",
+    "url": "https://www.reddit.com/r/openclaw/comments/1rewrct/where_openclaw_breaks_a_field_guide_from_running/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 90
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1rjfqib-why-are-the-ollama-quants-o",
+    "title": "Why are the Ollama quants of local llm models usually around 0.5GB to 1GB larger in size than the common file sizes of the same GGUF quant (i.e. from Bartowski, UD, etc) on Huggingface?",
+    "description": "I was looking at the file size for the Q4_K_M quant of the new Qwen3.5 9b on Ollama, and it is listed at 6.6GB in the Ollama library.  If you look at all the main Q4_K_M GGUFs on huggingface from Bartowski, Unsoth, and basically everyone's Q4_K_M as far as I was able to find, all of them are from ab",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rjfqib/why_are_the_ollama_quants_of_local_llm_models/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 6
+  },
+  {
+    "id": "https---www-reddit-com-r-localllama-comments-1rfp6bk-why-is-openclaw-even-this-p",
+    "title": "why is openclaw even this popular?",
+    "description": "recently i haven't been following up on the latest AI dramas and just came back from a vacation. Did some looking around and found out that OpenClaw just blew up, looked into it but I didn't find anything significantly special. It just seems to be like a wrapper that has a huge amounts of pre-progra",
+    "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rfp6bk/why_is_openclaw_even_this_popular/",
+    "source": "reddit/LocalLLaMA",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 457
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r9qepp-why-mac-mini-",
+    "title": "Why Mac mini??",
+    "description": "I still don't understand why you guys are buying macs mini for openclaw. It's a terminal computer. It doesn't need a great UI. Do you have too much money? :D A $50-$100 HP Thin Client with Linux is more than enough. And Linux shouldn't be discouraging for people using OpenClaw, am I wrong? I boug",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r9qepp/why_mac_mini/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 189
+  },
+  {
+    "id": "https---github-com-wickedapp-openclaw-office",
+    "title": "wickedapp/openclaw-office",
+    "description": "Virtual AI Office Dashboard for OpenClaw — visualize your multi-agent workflows in real-time ⭐ 76",
+    "url": "https://github.com/wickedapp/openclaw-office",
+    "source": "github-search",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-ai-agents-comments-1r8bp5i-wth-can-i-do-useful-with-ope",
+    "title": "WTH can I do useful with Openclaw?",
+    "description": "I'm not a dev but a stem scientist, so I write code but not software. I can't really come up with anything useful for Openclaw, apart from maybe installing software that's difficult to install. Everything else I can also do via the regular chat interfaces. Anybody with actually useful jobs for it th",
+    "url": "https://www.reddit.com/r/AI_Agents/comments/1r8bp5i/wth_can_i_do_useful_with_openclaw/",
+    "source": "reddit/AI_Agents",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 25
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-x-ac",
+    "title": "X Account Analysis",
+    "description": "There are many websites designed to give you a qualitative analysis of your X account. While X already gives you an **analytics** section, it's more focused to show your numbers on your performance.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/x-account-analysis.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Content & Media",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclawusecases-comments-1rjwqgq-you-asked-for-it-so-i",
+    "title": "You asked for it, so I open-sourced my entire OpenClaw newsroom pipeline: automated news scanning with AI editorial curation",
+    "description": "Hey Reddit,    I received multiple requests to share my workflow and scripts covered in this Reddit [thread](https://www.reddit.com/r/openclaw/comments/1rj7q72/my_openclaw_agent_runs_an_ai_newsroom_automated/) on [r/OpenClaw](https://www.reddit.com/r/OpenClaw/) and r/OpenClawUseCases . So I open-sou",
+    "url": "https://www.reddit.com/r/OpenClawUseCases/comments/1rjwqgq/you_asked_for_it_so_i_opensourced_my_entire/",
+    "source": "reddit/OpenClawUseCases",
+    "category": "Business & Automation",
+    "date_added": "2026-03-11",
+    "score": 160
+  },
+  {
+    "id": "https---github-com-youmind-openlab-nano-banana-pro-prompts-recommend-skill",
+    "title": "YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+    "description": "AI skill for OpenClaw & Claude Code — recommend from 10000+ Nano Banana Pro (Gemini) image prompts. Smart search by use case, content remix, sample images. ⭐ 1198",
+    "url": "https://github.com/YouMind-OpenLab/nano-banana-pro-prompts-recommend-skill",
+    "source": "github-search",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1riudg5-your-first-72-hours-with-open",
+    "title": "Your first 72 hours with OpenClaw will determine if you keep using it. Here's the setup most people skip",
+    "description": "Everyone's first instinct with OpenClaw is to build a dashboard. Command centers, mission control, fancy UI, it looks great on Twitter and it's a complete trap. You'll spend days on front-end stuff that isn't connected to anything real and skip the stuff that actually matters. Plus, you'll be throwi",
+    "url": "https://www.reddit.com/r/openclaw/comments/1riudg5/your_first_72_hours_with_openclaw_will_determine/",
+    "source": "reddit/openclaw",
+    "category": "Content & Media",
+    "date_added": "2026-03-11",
+    "score": 440
+  },
+  {
+    "id": "https---github-com-hesamsheikh-awesome-openclaw-usecases-blob-main-usecases-yout",
+    "title": "YouTube Content Pipeline",
+    "description": "As a daily YouTube creator, finding fresh, timely video ideas across the web and X/Twitter is time-consuming. Tracking what you've already covered prevents duplicates and helps you stay ahead of trends.",
+    "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/youtube-content-pipeline.md",
+    "source": "awesome-openclaw-usecases",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r71fw8-zero-coding-skills-30-days-wi",
+    "title": "Zero coding skills, 30 days with OpenClaw: here's what actually happened",
+    "description": "I'm a photographer. Solo operator. My technical expertise tops out at \"can make WordPress do what I want most of the time.\" I stumbled on OpenClaw and figured, worst case, I waste a weekend. Best case, I stop doing repetitive shit that makes me want to set fire to my laptop. It's been a month. Her",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r71fw8/zero_coding_skills_30_days_with_openclaw_heres/",
+    "source": "reddit/openclaw",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11",
+    "score": 133
+  },
+  {
+    "id": "https---github-com-zerolu-awesome-openclaw",
+    "title": "ZeroLu/awesome-openclaw",
+    "description": "A curated collection of OpenClaw tutorials, skills, and use cases. Learn how to build your personal AI assistant with 5400+ skills, multi-agent routing, and chat app integration (WhatsApp/Telegram/Discord/iMessage). ⭐ 2",
+    "url": "https://github.com/ZeroLu/awesome-openclaw",
+    "source": "github-search",
+    "category": "Personal & Productivity",
+    "date_added": "2026-03-11"
+  },
+  {
+    "id": "https---www-reddit-com-r-apolloapp-comments-144f6xm-apollo-will-close-down-on-ju",
+    "title": "📣 Apollo will close down on June 30th. Reddit’s recent decisions and actions have unfortunately made it impossible for Apollo to continue. Thank you so, so much for all the support over the years. ❤️",
+    "description": "Hey all, It's been an amazing run thanks to all of you. Eight years ago, I posted in the Apple subreddit [about a Reddit app I was looking for beta testers for](https://www.reddit.com/r/apple/comments/2u86mj/announcing_apollo_a_brand_new_gorgeous_reddit_app/), and my life completely changed that d",
+    "url": "https://www.reddit.com/r/apolloapp/comments/144f6xm/apollo_will_close_down_on_june_30th_reddits/",
+    "source": "reddit/apolloapp",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 221155
+  },
+  {
+    "id": "https---www-reddit-com-r-apolloapp-comments-14dkqrw-i-want-to-debunk-reddits-cla",
+    "title": "📣 I want to debunk Reddit's claims, and talk about their unwillingness to work with developers, moderators, and the larger community, as well as say thank you for all the support",
+    "description": "I wanted to address Reddit's continued, provably false statements, as well as answer some questions from the community, and also just say thanks. *(Before beginning, to the uninitiated, \"the Reddit API\" is just how apps and tools talk with Reddit to get posts in a subreddit, comments on a post, upv",
+    "url": "https://www.reddit.com/r/apolloapp/comments/14dkqrw/i_want_to_debunk_reddits_claims_and_talk_about/",
+    "source": "reddit/apolloapp",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 134037
+  },
+  {
+    "id": "https---www-reddit-com-r-openclaw-comments-1r2dybj-guide-stop-burning-money-on-a",
+    "title": "🚀 [GUIDE] Stop burning money on API fees. Here is how to force OpenClaw to run 100% off your $20/mo Claude subscription (Opus 4.6 enabled).",
+    "description": "Hey everyone, We all know the pain: You set up an agent, it gets stuck in a loop, and suddenly you owe Anthropic $50 for one afternoon of debugging. It turns out you **do not** need to use the API key. You can bridge OpenClaw directly to your standard Claude Pro ($20/mo) or Team ($200/mo) subscrip",
+    "url": "https://www.reddit.com/r/openclaw/comments/1r2dybj/guide_stop_burning_money_on_api_fees_here_is_how/",
+    "source": "reddit/openclaw",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 132
+  },
+  {
+    "id": "https---www-reddit-com-r-clawdbot-comments-1rd7zyq-openclaw-nukes-metas-ai-safet",
+    "title": "🚨 OpenClaw Nukes Meta’s AI Safety Director’s Inbox. She Couldn’t Stop It. Yes. You read that right.",
+    "description": "https://preview.redd.it/rah9ke99sdlg1.png?width=895&amp;format=png&amp;auto=webp&amp;s=11b88c997ba48c0d56ef08399256aeff3ece485e    At Meta, Summer Yue leads AI Safety &amp; Alignment — the team responsible for ensuring AI systems follow human intent.   Last week, her own autonomous agent didn’t. S",
+    "url": "https://www.reddit.com/r/clawdbot/comments/1rd7zyq/openclaw_nukes_metas_ai_safety_directors_inbox/",
+    "source": "reddit/clawdbot",
+    "category": "Developer Tools",
+    "date_added": "2026-03-11",
+    "score": 453
+  }
+]
