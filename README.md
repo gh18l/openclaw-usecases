@@ -236,7 +236,7 @@ I've been experimenting with OpenClaw (formerly Clawdbot) for the past few days.
 
 ### [hesamsheikh/awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)
 
-A community collection of OpenClaw use cases for making life easier. ⭐ 23440
+A community collection of OpenClaw use cases for making life easier. ⭐ 23452
 
 **Source:** GitHub Search · **Added:** 2026-03-11
 
@@ -620,7 +620,7 @@ If you're running OpenClaw with growing memory files, you should enable memory s
 
 ### [raulvidis/openclaw-multi-agent-kit](https://github.com/raulvidis/openclaw-multi-agent-kit)
 
-Production-tested templates for deploying multi-agent AI teams on OpenClaw with Telegram supergroup integration. 10 agent personalities, shared context workflows, bot-to-bot communication, and step-by-step AI-readable setup instructions. Built from a live 10-agent setup. ⭐ 190
+Production-tested templates for deploying multi-agent AI teams on OpenClaw with Telegram supergroup integration. 10 agent personalities, shared context workflows, bot-to-bot communication, and step-by-step AI-readable setup instructions. Built from a live 10-agent setup. ⭐ 192
 
 **Source:** GitHub Search · **Added:** 2026-03-11
 
@@ -864,7 +864,7 @@ Hi, I'm currently trying many alternatives of Openclaw, and I'm really surprised
 
 ### [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control)
 
-The open-source dashboard for AI agent orchestration. Manage agent fleets, track tasks, monitor costs, and orchestrate workflows — with direct CLI integration, GitHub sync, and real-time monitoring. ⭐ 2090
+The open-source dashboard for AI agent orchestration. Manage agent fleets, track tasks, monitor costs, and orchestrate workflows — with direct CLI integration, GitHub sync, and real-time monitoring. ⭐ 2091
 
 **Source:** GitHub Search · **Added:** 2026-03-11
 
@@ -1700,7 +1700,7 @@ Running a home server means being on-call 24/7 for your own infrastructure. Serv
 
 ### [swarmclawai/swarmclaw](https://github.com/swarmclawai/swarmclaw)
 
- Self-hosted AI agent orchestration dashboard with OpenClaw integration, multi-provider support, LangGraph workflows, and chat platform connectors. ⭐ 98
+ Self-hosted AI agent orchestration dashboard with OpenClaw integration, multi-provider support, LangGraph workflows, and chat platform connectors. ⭐ 99
 
 **Source:** GitHub Search · **Added:** 2026-03-11
 
@@ -1996,7 +1996,7 @@ been thinking about the openclaw hype and why ai agents still feel limited even 
 
 ### [AlexAnys/awesome-openclaw-usecases-zh](https://github.com/AlexAnys/awesome-openclaw-usecases-zh)
 
-🇨🇳 OpenClaw（个人智能体）中文最佳用例大全 | 40 个真实场景（国内特色 + 海外的国内生态适配）：自动化办公、内容创作、服务器运维、个人助理、知识管理 | 新手友好 | Chinese guide for OpenClaw AI agent use cases ⭐ 1710
+🇨🇳 OpenClaw（个人智能体）中文最佳用例大全 | 40 个真实场景（国内特色 + 海外的国内生态适配）：自动化办公、内容创作、服务器运维、个人助理、知识管理 | 新手友好 | Chinese guide for OpenClaw AI agent use cases ⭐ 1717
 
 **Source:** GitHub Search · **Added:** 2026-03-11
 
