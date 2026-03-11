@@ -1,4 +1,4 @@
-"""Fetch OpenClaw use cases from Reddit using the public JSON API."""
+"""Fetch OpenClaw use cases from Reddit — quality-filtered."""
 import re
 import time
 import logging
@@ -7,51 +7,34 @@ from datetime import datetime, timezone
 
 logger = logging.getLogger(__name__)
 
-# Broad keyword filter — keep nearly everything openclaw-related
-USECASE_KEYWORDS = [
-    "use case", "workflow", "setup", "built", "automating", "automated",
-    "i built", "i made", "i created", "i wrote", "sharing my", "my setup",
-    "how i", "using openclaw", "openclaw to", "with openclaw",
-    "openclaw for", "openclaw +", "openclaw -", "running openclaw",
-    "deployed", "integration", "automate", "agent", "pipeline",
-    "tutorial", "guide", "example", "showcase", "demo", "project",
-    "self-hosted", "selfhosted", "docker", "homelab", "n8n",
+# Strong signals only — must look like a real use case post
+STRONG_KEYWORDS = [
+    "i built", "i made", "i created", "i wrote", "i automated",
+    "sharing my", "my setup", "my workflow", "my use case",
+    "how i use", "how i built", "how i automated",
+    "use case", "real world", "production", "in production",
+    "tutorial", "guide", "step by step", "walkthrough",
+    "showcase", "demo", "example workflow",
 ]
 
-# Subreddits to scrape top posts from
+# Subreddits where openclaw use cases actually appear
 TOP_SUBREDDITS = [
     ("openclaw", 500),
-    ("selfhosted", 100),
-    ("LocalLLaMA", 100),
-    ("AI_Agents", 100),
-    ("homeautomation", 50),
-    ("MachineLearning", 50),
-    ("ChatGPT", 50),
-    ("ArtificialIntelligence", 50),
-    ("n8n", 100),
-    ("learnmachinelearning", 25),
     ("OpenClawUseCases", 500),
+    ("LocalLLaMA", 200),
+    ("AI_Agents", 200),
+    ("selfhosted", 100),
+    ("n8n", 100),
 ]
 
-# (query, subreddit or None for global search)
 SEARCH_QUERIES = [
     ("openclaw use case", None),
     ("openclaw workflow", None),
-    ("openclaw automation", None),
-    ("openclaw agent", None),
-    ("openclaw integration", None),
     ("openclaw tutorial", None),
-    ("openclaw project", None),
-    ("openclaw self-hosted", None),
-    ("openclaw docker", None),
-    ("openclaw", "selfhosted"),
     ("openclaw", "LocalLLaMA"),
     ("openclaw", "AI_Agents"),
-    ("openclaw", "homeautomation"),
+    ("openclaw", "selfhosted"),
     ("openclaw", "n8n"),
-    ("openclaw", "ChatGPT"),
-    ("openclaw", "MachineLearning"),
-    ("openclaw", "ArtificialIntelligence"),
     ("openclaw", "OpenClawUseCases"),
 ]
 
@@ -70,6 +53,8 @@ CATEGORIES_KEYWORDS = {
     "Multi-Agent Systems": ["multi-agent", "multi agent", "orchestrat", "agent", "pipeline", "chain", "crew", "swarm", "coordinator", "supervisor"],
 }
 
+MIN_SCORE = 10  # Only posts with real engagement
+
 
 def detect_category(text: str) -> str:
     text_lower = text.lower()
@@ -83,13 +68,13 @@ def make_id(url: str) -> str:
     return re.sub(r"[^a-z0-9]", "-", url.lower())[:80]
 
 
-def is_usecase_post(title: str, selftext: str) -> bool:
-    """Keep posts that mention openclaw + at least one use-case signal."""
+def is_quality_post(title: str, selftext: str, score: int) -> bool:
+    if score < MIN_SCORE:
+        return False
     combined = (title + " " + selftext).lower()
     if "openclaw" not in combined:
         return False
-    # Accept if it has any use-case keyword, OR is from r/openclaw (always relevant)
-    return any(kw in combined for kw in USECASE_KEYWORDS)
+    return any(kw in combined for kw in STRONG_KEYWORDS)
 
 
 class RedditFetcher:
@@ -99,22 +84,19 @@ class RedditFetcher:
         try:
             resp = requests.get(url, headers=HEADERS, params=params, timeout=15)
             if resp.status_code == 429:
-                retry_after = int(resp.headers.get("Retry-After", 60))
-                logger.warning(f"Reddit rate limited. Retry-After: {retry_after}s — skipping.")
+                logger.warning(f"Reddit rate limited — skipping {url}")
                 return None
             if resp.status_code in (403, 404):
-                logger.warning(f"Reddit {resp.status_code} for {url} — skipping.")
                 return None
             resp.raise_for_status()
             return resp.json()
         except requests.RequestException as e:
-            logger.warning(f"Reddit request failed for {url}: {e}")
+            logger.warning(f"Reddit request failed: {e}")
             return None
 
-    def _parse_posts(self, data: dict, source_label: str, min_score: int = 1) -> list[dict]:
+    def _parse_posts(self, data: dict, source_label: str) -> list[dict]:
         results = []
-        posts = data.get("data", {}).get("children", [])
-        for post in posts:
+        for post in data.get("data", {}).get("children", []):
             p = post.get("data", {})
             title = p.get("title", "").strip()
             selftext = p.get("selftext", "") or ""
@@ -122,137 +104,91 @@ class RedditFetcher:
             permalink = p.get("permalink", "")
             subreddit = p.get("subreddit", "")
 
-            if score < min_score:
-                continue
-            if not permalink:
-                continue
-            if not is_usecase_post(title, selftext):
+            if not permalink or not is_quality_post(title, selftext, score):
                 continue
 
             url = f"https://www.reddit.com{permalink}"
-            description = selftext.strip()[:400] if selftext.strip() else title
-            description = re.sub(r"\n+", " ", description).strip()
+            # Clean description: first 200 chars of post body, or just title
+            desc = re.sub(r"\n+", " ", selftext.strip())[:200] if selftext.strip() else ""
 
-            category = detect_category(f"{title} {description}")
             results.append({
                 "id": make_id(url),
                 "title": title,
-                "description": description or "No description.",
+                "description": desc,
                 "url": url,
                 "source": f"reddit/{subreddit}" if subreddit else source_label,
-                "category": category,
+                "category": detect_category(f"{title} {desc}"),
+                "stars": score,  # use Reddit score as quality signal
                 "date_added": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
-                "score": score,
             })
         return results
 
-    def fetch_subreddit_top_paginated(self, subreddit: str, target: int = 500) -> list[dict]:
-        """Fetch top posts from a subreddit with pagination via 'after' token."""
+    def _fetch_paginated(self, url: str, params: dict, target: int, label: str) -> list[dict]:
         results = []
-        seen_ids = set()
+        seen = set()
         after = None
         fetched = 0
-
         while fetched < target:
-            batch = min(100, target - fetched)
-            params = {"limit": batch, "t": "all"}
+            p = dict(params)
+            p["limit"] = min(100, target - fetched)
             if after:
-                params["after"] = after
-
-            url = f"{self.BASE_URL}/r/{subreddit}/top.json"
-            data = self._get(url, params)
+                p["after"] = after
+            data = self._get(url, p)
             if not data:
                 break
-
             posts_data = data.get("data", {})
             children = posts_data.get("children", [])
             if not children:
                 break
-
-            parsed = self._parse_posts(data, f"reddit/{subreddit}", min_score=1)
-            for p in parsed:
-                if p["id"] not in seen_ids:
-                    seen_ids.add(p["id"])
-                    results.append(p)
-
+            for item in self._parse_posts(data, label):
+                if item["id"] not in seen:
+                    seen.add(item["id"])
+                    results.append(item)
             after = posts_data.get("after")
             fetched += len(children)
-
-            logger.info(f"  r/{subreddit} top: fetched {fetched}, got {len(results)} use case posts so far")
-
-            if not after or len(children) < batch:
+            if not after or len(children) < p["limit"]:
                 break
-
             time.sleep(2)
-
-        logger.info(f"r/{subreddit} top (paginated): {len(results)} use case posts total.")
         return results
 
-    def fetch_search_paginated(self, query: str, subreddit: str = None, target: int = 250) -> list[dict]:
-        """Search Reddit with pagination via 'after' token."""
-        results = []
-        seen_ids = set()
-        after = None
-        fetched = 0
+    def fetch_subreddit_top(self, subreddit: str, target: int) -> list[dict]:
+        results = self._fetch_paginated(
+            f"{self.BASE_URL}/r/{subreddit}/top.json",
+            {"t": "all"},
+            target,
+            f"reddit/{subreddit}",
+        )
+        logger.info(f"r/{subreddit}: {len(results)} quality posts.")
+        return results
 
-        while fetched < target:
-            batch = min(100, target - fetched)
-            if subreddit:
-                url = f"{self.BASE_URL}/r/{subreddit}/search.json"
-                params = {"q": query, "restrict_sr": "1", "sort": "top", "t": "all", "limit": batch}
-            else:
-                url = f"{self.BASE_URL}/search.json"
-                params = {"q": query, "sort": "top", "t": "all", "limit": batch}
-            if after:
-                params["after"] = after
-
-            data = self._get(url, params)
-            if not data:
-                break
-
-            posts_data = data.get("data", {})
-            children = posts_data.get("children", [])
-            if not children:
-                break
-
-            label = f"reddit/{subreddit}" if subreddit else "reddit-search"
-            parsed = self._parse_posts(data, label, min_score=1)
-            for p in parsed:
-                if p["id"] not in seen_ids:
-                    seen_ids.add(p["id"])
-                    results.append(p)
-
-            after = posts_data.get("after")
-            fetched += len(children)
-
-            if not after or len(children) < batch:
-                break
-
-            time.sleep(2)
-
-        label = f"r/{subreddit}" if subreddit else "global"
-        logger.info(f"Reddit search '{query}' ({label}): {len(results)} use case posts total.")
+    def fetch_search(self, query: str, subreddit: str = None, target: int = 100) -> list[dict]:
+        if subreddit:
+            url = f"{self.BASE_URL}/r/{subreddit}/search.json"
+            params = {"q": query, "restrict_sr": "1", "sort": "top", "t": "all"}
+        else:
+            url = f"{self.BASE_URL}/search.json"
+            params = {"q": query, "sort": "top", "t": "all"}
+        results = self._fetch_paginated(url, params, target, f"reddit/{subreddit or 'search'}")
+        logger.info(f"Reddit search '{query}' ({subreddit or 'global'}): {len(results)} quality posts.")
         return results
 
     def fetch_all(self) -> list[dict]:
         all_results = []
-        seen_ids = set()
+        seen = set()
 
-        def add_deduped(items):
+        def add(items):
             for item in items:
-                if item["id"] not in seen_ids:
-                    seen_ids.add(item["id"])
+                if item["id"] not in seen:
+                    seen.add(item["id"])
                     all_results.append(item)
 
-        # Top posts from each subreddit (paginated)
         for subreddit, target in TOP_SUBREDDITS:
-            add_deduped(self.fetch_subreddit_top_paginated(subreddit, target=target))
+            add(self.fetch_subreddit_top(subreddit, target))
             time.sleep(2)
 
-        # Searches (paginated)
         for query, subreddit in SEARCH_QUERIES:
-            add_deduped(self.fetch_search_paginated(query, subreddit, target=250))
+            add(self.fetch_search(query, subreddit, target=100))
             time.sleep(2)
 
-        logger.info(f"Reddit total (deduplicated): {len(all_results)} items.")
+        logger.info(f"Reddit total: {len(all_results)} quality items.")
         return all_results

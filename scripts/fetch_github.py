@@ -18,28 +18,21 @@ CATEGORIES_KEYWORDS = {
     "Multi-Agent Systems": ["multi-agent", "multi agent", "orchestrat", "agent", "pipeline", "chain", "crew", "swarm", "coordinator", "supervisor"],
 }
 
-# All repo search queries
+# Focused queries only — generic terms like "openclaw agent" return too much noise
 REPO_SEARCH_QUERIES = [
     "openclaw use case",
     "openclaw workflow",
-    "openclaw agent",
-    "openclaw automation",
-    "openclaw n8n",
-    "openclaw tutorial",
     "openclaw example",
-    "openclaw integration",
-    "built with openclaw",
-    "openclaw project",
     "openclaw template",
-    "openclaw pipeline",
+    "openclaw tutorial",
+    "openclaw demo",
+    "openclaw starter",
+    "built with openclaw",
 ]
 
-# Code/README search queries (searches file contents)
 CODE_SEARCH_QUERIES = [
     "openclaw use case in:readme",
     "openclaw workflow in:readme",
-    "openclaw automation in:readme",
-    "openclaw agent in:readme",
     "built with openclaw in:readme",
 ]
 
@@ -54,6 +47,21 @@ def detect_category(text: str) -> str:
 
 def make_id(url: str) -> str:
     return re.sub(r"[^a-z0-9]", "-", url.lower())[:80]
+
+
+def is_quality_repo(repo: dict) -> bool:
+    """Keep only repos that look like genuine use cases / demos."""
+    if repo.get("fork"):
+        return False
+    if not repo.get("description", "").strip():
+        return False
+    if repo.get("stargazers_count", 0) < 1:
+        return False
+    # Skip repos whose name/description has no openclaw signal
+    name = (repo.get("full_name", "") + " " + repo.get("description", "")).lower()
+    if "openclaw" not in name:
+        return False
+    return True
 
 
 class GitHubFetcher:
@@ -73,17 +81,9 @@ class GitHubFetcher:
         try:
             resp = requests.get(url, headers=self.headers, params=params, timeout=15)
             if resp.status_code == 403:
-                retry_after = resp.headers.get("Retry-After")
-                if retry_after:
-                    logger.warning(f"Rate limited. Retry-After: {retry_after}s — skipping.")
-                else:
-                    logger.warning(f"403 Forbidden for {url} — skipping.")
+                logger.warning(f"Rate limited / forbidden: {url}")
                 return None
-            if resp.status_code == 404:
-                logger.warning(f"404 Not Found: {url}")
-                return None
-            if resp.status_code == 422:
-                logger.warning(f"422 Unprocessable for {url} — skipping.")
+            if resp.status_code in (404, 422):
                 return None
             resp.raise_for_status()
             return resp.json()
@@ -95,7 +95,6 @@ class GitHubFetcher:
         lines = content.strip().splitlines()
         title = filename.replace(".md", "").replace("-", " ").replace("_", " ").title()
         description = ""
-
         for line in lines:
             stripped = line.strip()
             if stripped.startswith("# "):
@@ -103,30 +102,26 @@ class GitHubFetcher:
             elif stripped and not stripped.startswith("#") and not description:
                 description = stripped
                 break
-
         if not title:
             return None
-
         category = detect_category(f"{title} {description} {content[:500]}")
         return {
             "id": make_id(url),
             "title": title,
-            "description": description[:300] if description else "No description available.",
+            "description": description[:200] if description else "No description available.",
             "url": url,
             "source": "awesome-openclaw-usecases",
             "category": category,
+            "stars": 0,
             "date_added": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
         }
 
     def fetch_awesome_usecases(self) -> list[dict]:
-        """Fetch all use cases from hesamsheikh/awesome-openclaw-usecases."""
         results = []
         url = f"{self.BASE_URL}/repos/hesamsheikh/awesome-openclaw-usecases/contents/usecases"
         items = self._get(url)
         if not items:
-            logger.warning("Could not fetch awesome-openclaw-usecases contents.")
             return results
-
         for item in items:
             if not isinstance(item, dict) or item.get("type") != "file":
                 continue
@@ -140,139 +135,102 @@ class GitHubFetcher:
             try:
                 resp = requests.get(raw_url, timeout=15)
                 resp.raise_for_status()
-                content = resp.text
-            except requests.RequestException as e:
-                logger.warning(f"Failed to download {raw_url}: {e}")
+                parsed = self._parse_markdown(resp.text, html_url, name)
+                if parsed:
+                    results.append(parsed)
+            except requests.RequestException:
                 continue
-
-            parsed = self._parse_markdown(content, html_url, name)
-            if parsed:
-                results.append(parsed)
             time.sleep(0.1)
-
-        logger.info(f"Fetched {len(results)} use cases from awesome-openclaw-usecases.")
+        logger.info(f"awesome-openclaw-usecases: {len(results)} use cases.")
         return results
 
-    def fetch_search_repos_paginated(self, query: str, max_pages: int = 10) -> list[dict]:
-        """Search GitHub repos with pagination (up to 1000 results per query)."""
+    def fetch_search_repos(self, query: str, max_pages: int = 3) -> list[dict]:
+        """Top results only (sorted by stars) — quality over quantity."""
         results = []
-        seen_urls = set()
-        url = f"{self.BASE_URL}/search/repositories"
-
+        seen = set()
         for page in range(1, max_pages + 1):
-            data = self._get(url, params={"q": query, "sort": "stars", "per_page": 100, "page": page})
-            if not data or "items" not in data:
+            data = self._get(
+                f"{self.BASE_URL}/search/repositories",
+                params={"q": query, "sort": "stars", "per_page": 100, "page": page},
+            )
+            if not data or not data.get("items"):
                 break
-
-            items = data["items"]
-            if not items:
-                break
-
-            for repo in items:
-                html_url = repo.get("html_url", "")
-                if not html_url or html_url in seen_urls:
+            for repo in data["items"]:
+                if not is_quality_repo(repo):
                     continue
-                seen_urls.add(html_url)
+                url = repo.get("html_url", "")
+                if url in seen:
+                    continue
+                seen.add(url)
                 title = repo.get("full_name", "")
-                description = repo.get("description") or ""
+                desc = repo.get("description", "").strip()
                 stars = repo.get("stargazers_count", 0)
-                category = detect_category(f"{title} {description}")
                 results.append({
-                    "id": make_id(html_url),
+                    "id": make_id(url),
                     "title": title,
-                    "description": f"{description} ⭐ {stars}" if description else f"GitHub repo · ⭐ {stars}",
-                    "url": html_url,
-                    "source": "github-search",
-                    "category": category,
+                    "description": f"{desc[:180]}",
+                    "url": url,
+                    "source": "github",
+                    "category": detect_category(f"{title} {desc}"),
+                    "stars": stars,
                     "date_added": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
                 })
-
-            total_count = data.get("total_count", 0)
-            fetched_so_far = page * 100
-            logger.info(f"  Repo search '{query}' page {page}: {len(items)} items (total: {total_count})")
-
-            if fetched_so_far >= min(total_count, 1000):
-                break
-
-            # Respect secondary rate limit: 1 req/sec for search
             time.sleep(1.2)
-
-        logger.info(f"Repo search '{query}': {len(results)} total repos fetched.")
+        logger.info(f"Repo search '{query}': {len(results)} quality repos.")
         return results
 
-    def fetch_code_search_paginated(self, query: str, max_pages: int = 10) -> list[dict]:
-        """Search GitHub code (README contents) with pagination."""
+    def fetch_code_search(self, query: str, max_pages: int = 3) -> list[dict]:
         if not self.authenticated:
-            logger.info(f"Skipping code search '{query}' — requires authentication.")
             return []
-
         results = []
-        seen_urls = set()
-        url = f"{self.BASE_URL}/search/code"
-
+        seen = set()
         for page in range(1, max_pages + 1):
-            data = self._get(url, params={"q": query, "per_page": 100, "page": page})
-            if not data or "items" not in data:
+            data = self._get(
+                f"{self.BASE_URL}/search/code",
+                params={"q": query, "per_page": 100, "page": page},
+            )
+            if not data or not data.get("items"):
                 break
-
-            items = data["items"]
-            if not items:
-                break
-
-            for item in items:
+            for item in data["items"]:
                 repo = item.get("repository", {})
-                html_url = repo.get("html_url", "")
-                if not html_url or html_url in seen_urls:
+                url = repo.get("html_url", "")
+                if not url or url in seen:
                     continue
-                seen_urls.add(html_url)
+                seen.add(url)
                 title = repo.get("full_name", "")
-                description = repo.get("description") or ""
-                category = detect_category(f"{title} {description}")
+                desc = repo.get("description", "") or ""
                 results.append({
-                    "id": make_id(html_url),
+                    "id": make_id(url),
                     "title": title,
-                    "description": description[:300] if description else "Found via README search.",
-                    "url": html_url,
-                    "source": "github-code-search",
-                    "category": category,
+                    "description": desc[:180] if desc else "Found via README.",
+                    "url": url,
+                    "source": "github",
+                    "category": detect_category(f"{title} {desc}"),
+                    "stars": 0,
                     "date_added": datetime.now(timezone.utc).strftime("%Y-%m-%d"),
                 })
-
-            total_count = data.get("total_count", 0)
-            fetched_so_far = page * 100
-            logger.info(f"  Code search '{query}' page {page}: {len(items)} items (total: {total_count})")
-
-            if fetched_so_far >= min(total_count, 1000):
-                break
-
             time.sleep(1.2)
-
-        logger.info(f"Code search '{query}': {len(results)} repos fetched.")
+        logger.info(f"Code search '{query}': {len(results)} repos.")
         return results
 
     def fetch_all(self) -> list[dict]:
         all_results = []
         seen_urls = set()
 
-        def add_deduped(items):
+        def add(items):
             for item in items:
                 url = item.get("url", "")
                 if url and url not in seen_urls:
                     seen_urls.add(url)
                     all_results.append(item)
 
-        # Primary source
-        add_deduped(self.fetch_awesome_usecases())
+        add(self.fetch_awesome_usecases())
+        for q in REPO_SEARCH_QUERIES:
+            add(self.fetch_search_repos(q, max_pages=3))
+            time.sleep(1)
+        for q in CODE_SEARCH_QUERIES:
+            add(self.fetch_code_search(q, max_pages=2))
+            time.sleep(1)
 
-        # Repo searches (paginated)
-        for query in REPO_SEARCH_QUERIES:
-            add_deduped(self.fetch_search_repos_paginated(query, max_pages=10))
-            time.sleep(1.5)
-
-        # Code/README searches (paginated, auth only)
-        for query in CODE_SEARCH_QUERIES:
-            add_deduped(self.fetch_code_search_paginated(query, max_pages=10))
-            time.sleep(1.5)
-
-        logger.info(f"GitHub total (deduplicated): {len(all_results)} items.")
+        logger.info(f"GitHub total: {len(all_results)} items.")
         return all_results

@@ -1,133 +1,192 @@
-"""Generate the README.md from collected use cases."""
+"""Generate a beautiful, curated README from collected use cases."""
 from datetime import datetime, timezone
 from collections import defaultdict
 
-CATEGORIES_ORDER = [
-    "Personal & Productivity",
-    "Developer Tools",
-    "Business & Automation",
-    "Smart Home & IoT",
-    "Content & Media",
-    "Finance & Trading",
-    "Multi-Agent Systems",
+CATEGORIES = [
+    ("🧑‍💻", "Developer Tools",        "CI/CD pipelines, code review, API automation, DevOps workflows."),
+    ("⚡", "Personal & Productivity", "Daily briefings, task management, smart scheduling, life automation."),
+    ("🏢", "Business & Automation",   "CRM workflows, customer support, sales automation, reporting."),
+    ("🤖", "Multi-Agent Systems",     "Orchestration, agent pipelines, crew AI, complex reasoning chains."),
+    ("📣", "Content & Media",         "Blog publishing, social media, newsletters, video automation."),
+    ("🏠", "Smart Home & IoT",        "Home automation, IoT sensors, device control, environment monitoring."),
+    ("💰", "Finance & Trading",       "Portfolio tracking, expense management, trading bots, budgeting."),
 ]
 
+CATEGORY_NAMES = [c[1] for c in CATEGORIES]
+
 CATEGORY_SLUGS = {
-    "Personal & Productivity": "personal--productivity",
-    "Developer Tools": "developer-tools",
-    "Business & Automation": "business--automation",
-    "Smart Home & IoT": "smart-home--iot",
-    "Content & Media": "content--media",
-    "Finance & Trading": "finance--trading",
-    "Multi-Agent Systems": "multi-agent-systems",
+    "Developer Tools":        "developer-tools",
+    "Personal & Productivity":"personal--productivity",
+    "Business & Automation":  "business--automation",
+    "Multi-Agent Systems":    "multi-agent-systems",
+    "Content & Media":        "content--media",
+    "Smart Home & IoT":       "smart-home--iot",
+    "Finance & Trading":      "finance--trading",
 }
 
-CATEGORY_DESCRIPTIONS = {
-    "Personal & Productivity": "Use cases for personal task management, daily routines, and productivity workflows.",
-    "Developer Tools": "Tools and automations for software development, CI/CD, code review, and DevOps.",
-    "Business & Automation": "Business process automation, CRM workflows, customer support, and enterprise use cases.",
-    "Smart Home & IoT": "Home automation, IoT device integration, and smart environment control.",
-    "Content & Media": "Content creation, social media automation, blog publishing, and media workflows.",
-    "Finance & Trading": "Financial tracking, trading automation, expense management, and portfolio monitoring.",
-    "Multi-Agent Systems": "Complex multi-agent pipelines, orchestration, and collaborative AI workflows.",
-}
+# Max items shown per category in the README
+MAX_PER_CATEGORY = 30
 
-SOURCE_LABELS = {
-    "awesome-openclaw-usecases": "[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)",
-    "github-search": "GitHub Search",
-}
+# Titles containing these are discussions/complaints, not use cases
+NOISE_TITLE_FRAGMENTS = [
+    "am i doing something wrong", "any good reason", "i'm out", "im out",
+    "overblown", "lackluster", "leaving", "uninstall", "disappointed",
+    "why is openclaw", "openclaw bad", "openclaw dead", "is openclaw worth",
+    "alternatives to openclaw", "openclaw vs", "vs openclaw",
+]
 
 
-def source_label(source: str) -> str:
-    if source in SOURCE_LABELS:
-        return SOURCE_LABELS[source]
-    if source.startswith("reddit/"):
-        sub = source.split("/", 1)[1]
-        return f"[r/{sub}](https://www.reddit.com/r/{sub})"
-    if source == "reddit-search":
-        return "Reddit Search"
-    return source
+def is_display_worthy(uc: dict) -> bool:
+    """Final quality gate before rendering."""
+    src = uc.get("source", "")
+    title_lower = uc.get("title", "").lower()
+
+    # Always show curated items
+    if src == "awesome-openclaw-usecases":
+        return True
+
+    # Filter out noise titles
+    if any(f in title_lower for f in NOISE_TITLE_FRAGMENTS):
+        return False
+
+    # Reddit: need real engagement
+    if src.startswith("reddit/"):
+        return uc.get("stars", 0) >= 10
+
+    # GitHub repos: need description and at least 1 star
+    if src in ("github", "github-search", "github-code-search"):
+        return bool(uc.get("description", "").strip()) and uc.get("stars", 0) >= 1
+
+    return True
 
 
-def anchor(text: str) -> str:
-    return text.lower().replace(" ", "-").replace("&", "").replace("/", "").replace("--", "-")
+def quality_score(uc: dict) -> float:
+    """Score used to rank items within a category."""
+    score = float(uc.get("stars", 0))
+    # Prefer curated / awesome-list sources
+    src = uc.get("source", "")
+    if src == "awesome-openclaw-usecases":
+        score += 1000
+    elif src.startswith("reddit/"):
+        score += float(uc.get("stars", 0)) * 0.5
+    # Prefer items with real descriptions
+    if len(uc.get("description", "")) > 50:
+        score += 10
+    return score
+
+
+def source_badge(uc: dict) -> str:
+    src = uc.get("source", "")
+    stars = uc.get("stars", 0)
+    if src == "awesome-openclaw-usecases":
+        return "⭐ curated"
+    if src == "github" or src == "github-code-search":
+        return f"★ {stars}" if stars else "GitHub"
+    if src.startswith("reddit/"):
+        sub = src.split("/", 1)[1]
+        return f"r/{sub} · ↑{stars}"
+    return src
 
 
 def generate_readme(usecases: list[dict]) -> str:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    total = len(usecases)
 
-    # Group by category
-    by_category = defaultdict(list)
+    # Filter, group, and rank
+    by_cat: dict[str, list[dict]] = defaultdict(list)
     for uc in usecases:
+        if not is_display_worthy(uc):
+            continue
         cat = uc.get("category", "Personal & Productivity")
-        if cat not in CATEGORIES_ORDER:
+        if cat not in CATEGORY_NAMES:
             cat = "Personal & Productivity"
-        by_category[cat].append(uc)
+        by_cat[cat].append(uc)
 
-    # Sort each category by title
-    for cat in by_category:
-        by_category[cat].sort(key=lambda x: x.get("title", "").lower())
+    for cat in by_cat:
+        by_cat[cat].sort(key=quality_score, reverse=True)
+
+    total_shown = sum(min(len(by_cat.get(c[1], [])), MAX_PER_CATEGORY) for c in CATEGORIES)
+    total_collected = len(usecases)
 
     lines = []
 
-    # Header
-    lines.append("# OpenClaw Use Cases\n")
-    lines.append("> Auto-updated daily collection of real-world OpenClaw use cases gathered from GitHub and Reddit.\n")
-    lines.append(f"**[{total} use cases]** · **Last updated: {now}**\n")
+    # ── Header ──────────────────────────────────────────────────────────────
+    lines += [
+        "# 🦾 Awesome OpenClaw Use Cases",
+        "",
+        "> A curated, auto-updated collection of real-world **OpenClaw** use cases — from personal automation to production multi-agent systems.",
+        "",
+        f"![Use Cases](https://img.shields.io/badge/use%20cases-{total_shown}-blue?style=flat-square)"
+        f"  ![Updated](https://img.shields.io/badge/updated-{now}-green?style=flat-square)"
+        f"  ![Sources](https://img.shields.io/badge/sources-GitHub%20%2B%20Reddit-orange?style=flat-square)",
+        "",
+        "**What is OpenClaw?** An open-source AI agent framework for building autonomous workflows.",
+        "This repo auto-discovers and curates the best community-built use cases every day.",
+        "",
+        "---",
+        "",
+    ]
 
-    # Table of Contents
-    lines.append("## Table of Contents\n")
-    for cat in CATEGORIES_ORDER:
-        count = len(by_category.get(cat, []))
-        slug = CATEGORY_SLUGS.get(cat, anchor(cat))
-        lines.append(f"- [{cat}](#{slug}) ({count})")
-    lines.append("")
+    # ── Table of Contents ───────────────────────────────────────────────────
+    lines += ["## Contents", ""]
+    for emoji, cat, _ in CATEGORIES:
+        count = min(len(by_cat.get(cat, [])), MAX_PER_CATEGORY)
+        slug = CATEGORY_SLUGS[cat]
+        lines.append(f"- [{emoji} {cat}](#{slug}) &nbsp; `{count}`")
+    lines += [
+        "",
+        "---",
+        "",
+    ]
 
-    # Category sections
-    for cat in CATEGORIES_ORDER:
-        items = by_category.get(cat, [])
-        lines.append(f"## {cat}\n")
-        lines.append(f"*{CATEGORY_DESCRIPTIONS.get(cat, '')}*\n")
+    # ── Category Sections ───────────────────────────────────────────────────
+    for emoji, cat, subtitle in CATEGORIES:
+        items = by_cat.get(cat, [])[:MAX_PER_CATEGORY]
+        lines += [
+            f"## {emoji} {cat}",
+            "",
+            f"*{subtitle}*",
+            "",
+        ]
 
         if not items:
-            lines.append("*No use cases collected yet for this category.*\n")
+            lines += ["*No entries yet — [contribute one!](#contributing)*", "", "---", ""]
             continue
 
         for uc in items:
-            title = uc.get("title", "Untitled")
+            title = uc.get("title", "Untitled").strip()
             url = uc.get("url", "")
-            description = uc.get("description", "")
-            src = source_label(uc.get("source", ""))
-            date = uc.get("date_added", "")
+            desc = uc.get("description", "").strip()
+            badge = source_badge(uc)
 
-            if url:
-                lines.append(f"### [{title}]({url})\n")
-            else:
-                lines.append(f"### {title}\n")
+            title_part = f"[{title}]({url})" if url else title
+            desc_part = f" — {desc}" if desc else ""
+            badge_part = f" `{badge}`" if badge else ""
 
-            if description:
-                lines.append(f"{description}\n")
+            lines.append(f"- **{title_part}**{desc_part}{badge_part}")
 
-            meta_parts = []
-            if src:
-                meta_parts.append(f"**Source:** {src}")
-            if date:
-                meta_parts.append(f"**Added:** {date}")
-            if meta_parts:
-                lines.append(" · ".join(meta_parts))
+        lines += ["", "---", ""]
 
-            lines.append("\n---\n")
-
-    # Sources & Credits
-    lines.append("## Sources & Credits\n")
-    lines.append("This collection is automatically gathered from:\n")
-    lines.append("- [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) by hesamsheikh")
-    lines.append("- GitHub repository search")
-    lines.append("- Reddit: [r/openclaw](https://www.reddit.com/r/openclaw), [r/selfhosted](https://www.reddit.com/r/selfhosted), [r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA), [r/AI_Agents](https://www.reddit.com/r/AI_Agents)")
-    lines.append("")
-    lines.append("---")
-    lines.append(f"*Auto-generated on {now} · [Contribute](https://github.com/hesamsheikh/awesome-openclaw-usecases)*")
-    lines.append("")
+    # ── Contributing ────────────────────────────────────────────────────────
+    lines += [
+        "## Contributing",
+        "",
+        "Found a great OpenClaw use case that's missing?",
+        "",
+        "1. **Submit to the source** — open a PR on [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) and it'll appear here automatically.",
+        "2. **Share on Reddit** — post in [r/openclaw](https://reddit.com/r/openclaw) or [r/OpenClawUseCases](https://reddit.com/r/OpenClawUseCases) with your use case.",
+        "",
+        "---",
+        "",
+        "## Sources",
+        "",
+        "| Source | Description |",
+        "|--------|-------------|",
+        "| [awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases) | Manually curated collection by hesamsheikh |",
+        "| GitHub Search | Repos tagged with openclaw use case / workflow / template |",
+        "| Reddit | r/openclaw · r/OpenClawUseCases · r/LocalLLaMA · r/AI_Agents · r/selfhosted |",
+        "",
+        f"*Auto-updated daily · {total_collected} items collected · {total_shown} curated · Last run: {now}*",
+        "",
+    ]
 
     return "\n".join(lines)
