@@ -2,7 +2,7 @@
 
 > A curated, auto-updated collection of real-world **OpenClaw** use cases — from personal automation to production multi-agent systems.
 
-![Use Cases](https://img.shields.io/badge/use%20cases-30-blue?style=flat-square)  ![Updated](https://img.shields.io/badge/updated-2026-03-11-green?style=flat-square)  ![Sources](https://img.shields.io/badge/sources-GitHub%20%2B%20Reddit-orange?style=flat-square)
+![Use Cases](https://img.shields.io/badge/use%20cases-30-blue?style=flat-square)  ![Updated](https://img.shields.io/badge/updated-2026-03-12-green?style=flat-square)  ![Sources](https://img.shields.io/badge/sources-GitHub%20%2B%20Reddit-orange?style=flat-square)
 
 **What is OpenClaw?** An open-source AI agent framework for building autonomous workflows.
 This repo auto-discovers and curates the best community-built use cases every day.
@@ -119,4 +119,4 @@ Found a great OpenClaw use case that's missing?
 | GitHub Search | Repos tagged with openclaw use case / workflow / template |
 | Reddit | r/openclaw · r/OpenClawUseCases · r/LocalLLaMA · r/AI_Agents · r/selfhosted |
 
-*Auto-updated daily · 261 items collected · 30 curated · Last run: 2026-03-11*
+*Auto-updated daily · 261 items collected · 30 curated · Last run: 2026-03-12*
