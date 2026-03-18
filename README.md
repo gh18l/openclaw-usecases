@@ -22,19 +22,6 @@ filters for quality, and commits an updated README — so you're always seeing t
 
 ---
 
-## 🆕 New This Week
-
-- **[AI-Powered Earnings Tracker](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/earnings-tracker.md)** — Following earnings season across dozens of tech companies means checking multiple sources and remembering report dates. You want to stay on top of AI/tech… `⭐ curated`
-- **[Automated Meeting Notes & Action Items](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/meeting-notes-action-items.md)** — You just finished a 45-minute team call. Now you need to write up the summary, pull out action items, and distribute them to Jira, Linear, or Todoist … `⭐ curated`
-- **[Autonomous Project Management with Subagents](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/autonomous-project-management.md)** — Managing complex projects with multiple parallel workstreams is exhausting. You end up context-switching constantly, tracking status across tools, and manually… `⭐ curated`
-- **[Custom Morning Brief](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/custom-morning-brief.md)** — You wake up and spend the first 30 minutes of your day catching up — scrolling news, checking your calendar, reviewing your to-do list, trying to figure out… `⭐ curated`
-- **[Daily YouTube Digest](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/daily-youtube-digest.md)** — Start your day with a personalized summary of new videos from your favorite YouTube channels — no more missing content from creators you actually want to… `⭐ curated`
-- **[Dynamic Dashboard with Sub-agent Spawning](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/dynamic-dashboard.md)** — Static dashboards show stale data and require constant manual updates. You want real-time visibility across multiple data sources without building a custom… `⭐ curated`
-- **[Event Guest Confirmation](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/event-guest-confirmation.md)** — You're hosting an event — a dinner party, a wedding, a company offsite — and you need to confirm attendance from a list of guests. Manually calling 20+ people… `⭐ curated`
-- **[Family Calendar Aggregation & Household Assistant](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/family-calendar-household-assistant.md)** — Modern families juggle five or more calendars — work, personal, shared family, kids' school, extracurriculars — across different platforms and formats… `⭐ curated`
-
----
-
 ## Contents
 
 - [⚡ Personal & Productivity](#personal--productivity) (16)
@@ -152,4 +139,4 @@ The easiest way to add a use case:
 
 ---
 
-<sub>🤖 Auto-generated · 261 items collected · 30 displayed · Last updated 2026-03-17</sub>
+<sub>🤖 Auto-generated · 261 items collected · 30 displayed · Last updated 2026-03-18</sub>
