@@ -139,4 +139,4 @@ The easiest way to add a use case:
 
 ---
 
-<sub>🤖 Auto-generated · 261 items collected · 30 displayed · Last updated 2026-06-05</sub>
+<sub>🤖 Auto-generated · 261 items collected · 30 displayed · Last updated 2026-06-06</sub>
